@@ -1,0 +1,1523 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="7/8/2025 8:22:00 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAPTOP-ATCKVCDN"
+  DTS:CreatorName="LAPTOP-ATCKVCDN\Sebastian"
+  DTS:DTSID="{4B9FCC17-174E-4202-A9C3-81485CE344EA}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5556.0"
+  DTS:LocaleID="10250"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{9A3BA6BE-4245-4FA0-8796-856DE37FB56D}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[(local).Empresa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{DA027FCA-B283-43A2-B0C4-FC657C79D15D}"
+      DTS:ObjectName="(local).Empresa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=(local);Initial Catalog=Empresa;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones de archivos planos]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{8C581796-F6FD-49A7-B82C-161E03AC7048}"
+      DTS:ObjectName="Administrador de conexiones de archivos planos">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="10250"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Sebastian\Desktop\CURSOS\01. Para cv\CEPS-UNI - SQL SERVER 4\AppSSIS\Clase2\TB_UBIGEOS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id_ubigeo"
+              DTS:DTSID="{01F1CD00-24D9-4704-B328-2A4F366EDCE9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ubigeo_reniec"
+              DTS:DTSID="{122C59FE-C3BE-4FE7-A4D9-0D4E43C9ABA4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ubigeo_inei"
+              DTS:DTSID="{9318DB75-3E1A-4B7E-BE28-7B059984290F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="departamento_inei"
+              DTS:DTSID="{5D435C19-E5B2-49A9-B573-4F2827824DD8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="departamento"
+              DTS:DTSID="{0D36F4AF-FA0C-4C0A-81A1-8BB0916B0FCF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="provincia_inei"
+              DTS:DTSID="{26629522-3C63-4D38-9FC6-F5B01C01EA15}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="provincia"
+              DTS:DTSID="{0E3EF462-FECB-4125-B980-E39CF8816D61}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="distrito"
+              DTS:DTSID="{6E0A5428-3FD3-43EB-B36C-A2B7B55AC626}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="region"
+              DTS:DTSID="{7F15ECFC-B513-4878-840C-E2418A4DF8B8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="macroregion_inei"
+              DTS:DTSID="{50D31369-1801-43D4-BB74-605740B1EC9B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="macroregion_minsa"
+              DTS:DTSID="{22AD05A4-DFE5-48FB-911C-17CE6B06B57C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="iso_3166_2"
+              DTS:DTSID="{BE7FF401-3191-4A60-8A3B-4D4DBDF8DF67}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fips"
+              DTS:DTSID="{A450E6CF-DD38-4A3A-8BBB-56F34C7A2891}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="superficie"
+              DTS:DTSID="{42798CF3-CCEE-47FA-B798-25A46F49481E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="altitud"
+              DTS:DTSID="{7B2EF698-4305-417A-8307-4BCEABCC7B3C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="latitud"
+              DTS:DTSID="{D1DA5CA3-7AF4-493B-B8A4-AFD9E4BAF842}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="longitud"
+              DTS:DTSID="{C6A72E94-5B27-4FC3-A7A4-E957D54CE58D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Frontera"
+              DTS:DTSID="{3B71155D-A7F9-4001-BEB2-708B43FFB624}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{BE81CAED-C606-4284-9E82-B0E2ACD473BB}"
+      DTS:ObjectName="Administrador de conexiones de archivos planos 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="10250"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Sebastian\Desktop\CURSOS\01. Para cv\CEPS-UNI - SQL SERVER 4\AppSSIS\Clase2\TB_UBIGEOS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id_ubigeo"
+              DTS:DTSID="{1139D88F-67D2-4378-BBEF-59452E73FE38}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ubigeo_reniec"
+              DTS:DTSID="{5156CBDD-2ABB-46A6-A28F-090A5E225271}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ubigeo_inei"
+              DTS:DTSID="{4F60FA45-8A74-47CD-AD8B-70274890EA69}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="departamento_inei"
+              DTS:DTSID="{9553F9FD-C36D-4E7C-AC0B-D1B1807A717F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="departamento"
+              DTS:DTSID="{5BA1F893-269D-4D86-AC0F-7E04FC28E3E7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="provincia_inei"
+              DTS:DTSID="{E21C4F0D-6F6A-4DBF-A81D-B435E0B23A76}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="provincia"
+              DTS:DTSID="{43493ADF-B5AA-47FF-8525-698E0B3171A0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="distrito"
+              DTS:DTSID="{5A2EFBAD-AC2B-4BD7-A459-7CC5F918F8B6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="region"
+              DTS:DTSID="{3CA383EB-B308-44AE-855D-3AD38F2B0B84}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="macroregion_inei"
+              DTS:DTSID="{F252969B-EFBE-451A-9964-5F77DEECDBDC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="macroregion_minsa"
+              DTS:DTSID="{7AD071F0-33F9-464E-ACC7-D7DD0FC8DD47}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="iso_3166_2"
+              DTS:DTSID="{EF81E59F-3B80-4AAC-8ACD-BB0628096384}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fips"
+              DTS:DTSID="{E6BCC912-B2D7-4E65-9F7B-9F7F8A1C923D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="superficie"
+              DTS:DTSID="{18EEDA08-2DA9-4B7C-8157-6DB3417F186B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="altitud"
+              DTS:DTSID="{45304AA6-03A2-4FE1-9E92-998577C2E8F0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="latitud"
+              DTS:DTSID="{B09A5648-FF28-472E-BB5E-BC85D6F25B08}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="longitud"
+              DTS:DTSID="{6686EC4B-E465-44E8-BEB9-05ECD9DC903E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Frontera"
+              DTS:DTSID="{88A916AF-9505-41C9-9F92-C96E2A43B8E6}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Poblar UBIGEO"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{4E8D7B38-9E14-4D77-88AD-47C48A08DFB8}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Poblar UBIGEO"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Poblar UBIGEO\Leer UBIGEO"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Origen de archivo plano"
+              localeId="10250"
+              name="Leer UBIGEO"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si las columnas de longitud cero se tratan como NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de una columna de salida que contiene el nombre de archivo. Si no se especifica ningún nombre, no se genera ninguna columna de salida con el nombre de archivo."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Poblar UBIGEO\Leer UBIGEO.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones de archivos planos 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 1]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano]"
+                  name="Salida de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[id_ubigeo]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[id_ubigeo]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[id_ubigeo]"
+                      name="id_ubigeo"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[ubigeo_reniec]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[ubigeo_reniec]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[ubigeo_reniec]"
+                      name="ubigeo_reniec"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[ubigeo_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[ubigeo_inei]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[ubigeo_inei]"
+                      name="ubigeo_inei"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[departamento_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[departamento_inei]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[departamento_inei]"
+                      name="departamento_inei"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[departamento]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[departamento]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[departamento]"
+                      name="departamento"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[provincia_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[provincia_inei]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[provincia_inei]"
+                      name="provincia_inei"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[provincia]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[provincia]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[provincia]"
+                      name="provincia"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[distrito]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[distrito]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[distrito]"
+                      name="distrito"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[region]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[region]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[region]"
+                      name="region"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[macroregion_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[macroregion_inei]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[macroregion_inei]"
+                      name="macroregion_inei"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[macroregion_minsa]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[macroregion_minsa]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[macroregion_minsa]"
+                      name="macroregion_minsa"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[iso_3166_2]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[iso_3166_2]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[iso_3166_2]"
+                      name="iso_3166_2"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[fips]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[fips]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[fips]"
+                      name="fips"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[superficie]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[superficie]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[superficie]"
+                      name="superficie"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[altitud]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[altitud]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[altitud]"
+                      name="altitud"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[latitud]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[latitud]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[latitud]"
+                      name="latitud"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[longitud]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[longitud]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[longitud]"
+                      name="longitud"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[Frontera]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[Frontera]"
+                      length="50"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[Frontera]"
+                      name="Frontera"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[id_ubigeo]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="id_ubigeo" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[ubigeo_reniec]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ubigeo_reniec" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[ubigeo_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ubigeo_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[departamento_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="departamento_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[departamento]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="departamento" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[provincia_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="provincia_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[provincia]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="provincia" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[distrito]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="distrito" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[region]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="region" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[macroregion_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="macroregion_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[macroregion_minsa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="macroregion_minsa" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[iso_3166_2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="iso_3166_2" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[fips]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="fips" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[superficie]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="superficie" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[altitud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="altitud" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[latitud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="latitud" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[longitud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="longitud" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].ExternalColumns[Frontera]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Frontera" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de error de origen de archivo plano]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Columna de salida de error de origen de archivo plano"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      name="Columna de salida de error de origen de archivo plano" />
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Poblar UBIGEO\UBIGEO_LIMA"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="UBIGEO_LIMA"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[UBIGEO_LIMA]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[(local).Empresa]"
+                  connectionManagerRefId="Package.ConnectionManagers[(local).Empresa]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[id_ubigeo]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="id_ubigeo"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_ubigeo]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[id_ubigeo]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[ubigeo_reniec]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ubigeo_reniec"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[ubigeo_reniec]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[ubigeo_reniec]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[ubigeo_inei]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ubigeo_inei"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[ubigeo_inei]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[ubigeo_inei]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[departamento_inei]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="departamento_inei"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[departamento_inei]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[departamento_inei]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[departamento]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="departamento"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[departamento]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[departamento]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[provincia_inei]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="provincia_inei"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[provincia_inei]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[provincia_inei]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[provincia]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="provincia"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[provincia]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[provincia]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[distrito]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="distrito"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[distrito]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[distrito]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[region]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="region"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[region]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[region]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[macroregion_inei]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="macroregion_inei"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[macroregion_inei]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[macroregion_inei]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[macroregion_minsa]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="macroregion_minsa"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[macroregion_minsa]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[macroregion_minsa]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[iso_3166_2]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="iso_3166_2"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[iso_3166_2]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[iso_3166_2]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[fips]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="fips"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[fips]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[fips]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[superficie]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="superficie"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[superficie]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[superficie]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[altitud]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="altitud"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[altitud]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[altitud]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[latitud]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="latitud"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[latitud]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[latitud]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[longitud]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="longitud"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[longitud]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[longitud]" />
+                    <inputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].Columns[Frontera]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Frontera"
+                      externalMetadataColumnId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[Frontera]"
+                      lineageId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano].Columns[Frontera]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_ubigeo]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="id_ubigeo" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[ubigeo_reniec]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ubigeo_reniec" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[ubigeo_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ubigeo_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[departamento_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="departamento_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[departamento]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="departamento" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[provincia_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="provincia_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[provincia]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="provincia" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[distrito]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="distrito" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[region]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="region" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[macroregion_inei]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="macroregion_inei" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[macroregion_minsa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="macroregion_minsa" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[iso_3166_2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="iso_3166_2" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[fips]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="fips" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[superficie]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="superficie" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[altitud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="altitud" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[latitud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="latitud" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[longitud]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="longitud" />
+                    <externalMetadataColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB].ExternalColumns[Frontera]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Frontera" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Poblar UBIGEO\UBIGEO_LIMA.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Poblar UBIGEO\UBIGEO_LIMA.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Poblar UBIGEO\UBIGEO_LIMA.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Poblar UBIGEO.Paths[Salida de origen de archivo plano]"
+              endId="Package\Poblar UBIGEO\UBIGEO_LIMA.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de origen de archivo plano"
+              startId="Package\Poblar UBIGEO\Leer UBIGEO.Outputs[Salida de origen de archivo plano]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Poblar UbigeoDeLima"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{D06CA241-C6F3-4747-ACE8-F69EF253A553}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Poblar UbigeoDeLima"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{DA027FCA-B283-43A2-B0C4-FC657C79D15D}"
+          SQLTask:SqlStatementSource="IF EXISTS&#xA;(&#xA;&#x9;SELECT name&#xA;&#x9;FROM sys.tables&#xA;&#x9;WHERE name = 'UbigeoDeLima'&#xA;)&#xA;DROP TABLE [Empresa].[dbo].[UbigeoDeLima]&#xA;GO&#xA;&#xA;SELECT CONVERT(INT, [id_ubigeo]) AS [id_ubigeo]&#xA;      ,CONVERT(CHAR(6), [ubigeo_reniec]) AS [ubigeo_reniec]&#xA;      ,CONVERT(CHAR(6), [ubigeo_inei]) AS [ubigeo_inei]&#xA;      ,CONVERT(CHAR(2), [departamento_inei]) AS [departamento_inei]&#xA;      ,CONVERT(VARCHAR(13), [departamento]) AS [departamento]&#xA;      ,CONVERT(CHAR(4), REPLACE([provincia_inei], 'Ã‘', 'Ñ')) AS [provincia_inei]&#xA;      ,CONVERT(VARCHAR(25), REPLACE([provincia], 'Ã‘', 'Ñ')) AS [provincia]&#xA;&#x9;  ,CONVERT(VARCHAR(36), REPLACE([distrito], 'Ã‘', 'Ñ')) AS [distrito]&#xA;      ,CONVERT(VARCHAR(14), [region]) AS [region]&#xA;      ,CONVERT(VARCHAR(18), [macroregion_inei]) AS [macroregion_inei]&#xA;      ,CONVERT(VARCHAR(19), [macroregion_minsa]) AS [macroregion_minsa]&#xA;      ,CONVERT(VARCHAR(6), [iso_3166_2]) AS [iso_3166_2]&#xA;      ,CONVERT(VARCHAR(2), [fips]) AS [fips]&#xA;      ,CONVERT(INT, [superficie]) AS [superficie]&#xA;      ,CONVERT(INT, [altitud]) AS [altitud]&#xA;      ,CONVERT(FLOAT, [latitud]) AS [latitud]&#xA;      ,CONVERT(FLOAT, [longitud]) AS [longitud]&#xA;      ,CONVERT(CHAR(2), [Frontera]) AS [Frontera]&#xA;  INTO UbigeoDeLima&#xA;  FROM [Empresa].[dbo].[UBIGEO_LIMA]&#xA;  WHERE departamento = 'LIMA'&#xA;  GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Ejecutar SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{5AE96812-3E63-47CC-A710-10FB86BC19E1}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Ejecutar SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{DA027FCA-B283-43A2-B0C4-FC657C79D15D}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[UBIGEO_LIMA];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{7F62EE6C-ABBC-4F49-B4C8-B356702EFFB8}"
+      DTS:From="Package\Poblar UBIGEO"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\Poblar UbigeoDeLima" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{01808F31-68DB-48C5-888C-54CA0250C47B}"
+      DTS:From="Package\Tarea Ejecutar SQL"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 1"
+      DTS:To="Package\Poblar UBIGEO" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Poblar UBIGEO"
+          TopLeft="519.5,176.5" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Poblar UbigeoDeLima"
+          TopLeft="508.5,264.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="596.5,218.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46"
+              Start="0,0"
+              End="0,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Tarea Ejecutar SQL"
+          TopLeft="515,74" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 1]"
+          TopLeft="597.25,116">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60.5"
+              Start="0,0"
+              End="0,53">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,53" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Poblar UBIGEO">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Poblar UBIGEO\Leer UBIGEO"
+          TopLeft="349.5,50.5" />
+        <NodeLayout
+          Size="147,42"
+          Id="Package\Poblar UBIGEO\UBIGEO_LIMA"
+          TopLeft="342,180" />
+        <EdgeLayout
+          Id="Package\Poblar UBIGEO.Paths[Salida de origen de archivo plano]"
+          TopLeft="417.75,92.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,87.5"
+              Start="0,0"
+              End="0,80">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,80" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblar UBIGEO\UBIGEO_LIMA">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

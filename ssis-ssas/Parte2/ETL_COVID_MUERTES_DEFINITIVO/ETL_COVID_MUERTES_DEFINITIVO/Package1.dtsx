@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="7/12/2025 12:46:06 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAPTOP-ATCKVCDN"
+  DTS:CreatorName="LAPTOP-ATCKVCDN\Sebastian"
+  DTS:DTSID="{616C286F-928D-4D64-8768-758E4C46ACC4}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.2"
+  DTS:LocaleID="10250"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{05BB9288-0F1E-47CB-AD74-DCB1BEA02E0B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[(local).Empresa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{EE9E78DF-F03B-4514-8606-EF96608D10A6}"
+      DTS:ObjectName="(local).Empresa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=(local);Initial Catalog=Empresa;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{EE9E78DF-F03B-4514-8606-EF96608D10A6}(local).Empresa;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Ejecutar SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{277AB07F-28A8-46CA-A3C6-5EFAA3185EE8}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Ejecutar SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{EE9E78DF-F03B-4514-8606-EF96608D10A6}"
+          SQLTask:SqlStatementSource="-- Parte 1: Leer archivo&#xA;USE Empresa&#xA;GO&#xA;IF EXISTS&#xA;(&#xA;&#x9;SELECT name&#xA;&#x9;FROM sys.tables&#xA;&#x9;WHERE name = 'T'&#xA;)&#xA;DROP TABLE [Empresa].[dbo].[T]&#xA;GO&#xA;SELECT *&#xA;INTO [Empresa].[dbo].[T]&#xA;FROM OPENROWSET&#xA;(&#xA;    'Microsoft.ACE.OLEDB.12.0',&#xA;    'Text;Database=C:\data\;FMT=CSVDelimited;HDR=YES',&#xA;    'SELECT * FROM [time_series_covid19_confirmed_global.csv]'&#xA;) AS SC&#xA;GO&#xA;&#xA;-- Parte 2: Guardar por UnPivot&#xA;IF EXISTS&#xA;(&#xA;&#x9;SELECT name&#xA;&#x9;FROM sys.tables&#xA;&#x9;WHERE name = 'CONFIRMADOS'&#xA;)&#xA;DROP TABLE CONFIRMADOS&#xA;GO&#xA;IF EXISTS&#xA;(&#xA;&#x9;SELECT t.name, c.name&#xA;&#x9;FROM sys.tables t&#xA;&#x9;INNER JOIN sys.columns c&#xA;&#x9;ON t.object_id = c.object_id&#xA;&#x9;WHERE&#xA;&#x9;&#x9;t.name = 'T'&#xA;&#x9;&#x9;AND&#xA;&#x9;&#x9;c.name = 'Province/State'&#xA;)&#xA;ALTER TABLE T&#xA;DROP COLUMN [Province/State]&#xA;GO&#xA;&#xA;-- Objetivo: hacer un UNpivot (Traer de las columnas hacia abajo)&#xA;DECLARE @strSQL AS VARCHAR(MAX)&#xA;DECLARE @strCampo AS CHAR(8)&#xA;&#xA;SET @strSQL = 'SELECT CONVERT(VARCHAR(32), [Country/Region]) AS [Country/Region], [Lat], [Long], CONVERT(DATE,[Fecha], 1) AS [Fecha], [Valor] INTO CONFIRMADOS FROM T '&#xA;SET @strSQL += 'UNPIVOT '&#xA;SET @strSQL += ' ( '&#xA;SET @strSQL += 'Valor FOR Fecha IN '&#xA;SET @strSQL += ' ( '&#xA;&#xA;DECLARE ucr_campos CURSOR FOR&#xA;SELECT c.name&#xA;FROM sys.tables t&#xA;INNER JOIN sys.columns c&#xA;ON t.object_id = c.object_id&#xA;WHERE&#xA;&#x9;t.name = 'T'&#xA;&#x9;AND&#xA;&#x9;c.name NOT IN ('Country/Region', 'Lat', 'Long')&#xA;&#xA;OPEN ucr_campos;&#xA;-- Extrae la primera fila del cursor y almacena su valor en la variable&#xA;FETCH NEXT FROM ucr_campos&#xA;INTO @strCampo;&#xA;-- El bucle se ejecuta mientras haya filas por leer. &#xA;-- @@FETCH_STATUS = 0 indica que el FETCH fue exitoso.&#xA;WHILE @@FETCH_STATUS=0&#xA;BEGIN&#xA;&#x9;SET @strSQL += CONCAT('[' , TRIM(@strCampo) , '], ')&#xA;&#xA;&#x9;FETCH NEXT FROM ucr_campos&#xA;&#x9;INTO @strCampo;&#xA;END&#xA;-- Para eliminar la última , del SELECT&#xA;SET @strSQL = SUBSTRING(@strSQL, 1, LEN(@strSQL) - 1);&#xA;CLOSE ucr_campos;&#xA;DEALLOCATE ucr_campos;&#xA;&#xA;&#xA;SET @strSQL += ' ) '&#xA;SET @strSQL += ') AS SCUnPivot'&#xA;&#xA;EXECUTE(@strSQL)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Tarea Ejecutar SQL"
+          TopLeft="477,176" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
