@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="(local).Northwind_Stg"
+  DTS:DTSID="{060659FF-6ACB-476C-96F9-E4C2BCD5F3E3}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=(local);Initial Catalog=Northwind_Stg;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-GourmetStore-{060659FF-6ACB-476C-96F9-E4C2BCD5F3E3}(local).Northwind_Stg;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
