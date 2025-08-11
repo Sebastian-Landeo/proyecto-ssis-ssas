@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.Empresa"
+  DTS:DTSID="{C18143B0-3664-41E3-AC3A-A409F4D7CFEB}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Empresa;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-ImportarCSV-{C18143B0-3664-41E3-AC3A-A409F4D7CFEB}LocalHost.Empresa;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
