@@ -1,0 +1,701 @@
+﻿Segmento;País; Producto ; Banda de descuento ;Unidades vendidas; Precio de fabricación ; Precio de venta ; Descuentos ; Costo de Ventas ;Fecha
+Gobierno;Canadá; Carretera ;;1618.5; $3.00 ; $20.00 ; $-   ; $16,185.00 ;1/01/2022
+Gobierno;Alemania; Carretera ;;1321; $3.00 ; $20.00 ; $-   ; $13,210.00 ;1/01/2022
+Mercado medio;Francia; Carretera ;;2178; $3.00 ; $15.00 ; $-   ; $21,780.00 ;1/06/2022
+Mercado medio;Alemania; Carretera ;;888; $3.00 ; $15.00 ; $-   ; $8,880.00 ;1/06/2022
+Mercado medio;México; Carretera ;;2470; $3.00 ; $15.00 ; $-   ; $24,700.00 ;1/06/2022
+Gobierno;Alemania; Carretera ;;1513; $3.00 ; $350.00 ; $-   ; $393,380.00 ;1/12/2022
+Mercado medio;Alemania; Montaña ;;921; $5.00 ; $15.00 ; $-   ; $9,210.00 ;1/03/2022
+Socios de canal;Canadá; Montaña ;;2518; $5.00 ; $12.00 ; $-   ; $7,554.00 ;1/06/2022
+Gobierno;Francia; Montaña ;;1899; $5.00 ; $20.00 ; $-   ; $18,990.00 ;1/06/2022
+Socios de canal;Alemania; Montaña ;;1545; $5.00 ; $12.00 ; $-   ; $4,635.00 ;1/06/2022
+Mercado medio;México; Montaña ;;2470; $5.00 ; $15.00 ; $-   ; $24,700.00 ;1/06/2022
+Empresa;Canadá; Montaña ;;2665.5; $5.00 ; $125.00 ; $-   ; $319,860.00 ;1/07/2022
+Pequeños negocios;México; Montaña ;;958; $5.00 ; $300.00 ; $-   ; $239,500.00 ;1/08/2022
+Gobierno;Alemania; Montaña ;;2146; $5.00 ; $7.00 ; $-   ; $10,730.00 ;1/09/2022
+Empresa;Canadá; Montaña ;;345; $5.00 ; $125.00 ; $-   ; $41,400.00 ;1/10/2021
+Mercado medio;Estados Unidos; Montaña ;;615; $5.00 ; $15.00 ; $-   ; $6,150.00 ;1/12/2022
+Gobierno;Canadá; Paseo ;;292; $10.00 ; $20.00 ; $-   ; $2,920.00 ;1/02/2022
+Mercado medio;México; Paseo ;;974; $10.00 ; $15.00 ; $-   ; $9,740.00 ;1/02/2022
+Socios de canal;Canadá; Paseo ;;2518; $10.00 ; $12.00 ; $-   ; $7,554.00 ;1/06/2022
+Gobierno;Alemania; Paseo ;;1006; $10.00 ; $350.00 ; $-   ; $261,560.00 ;1/06/2022
+Socios de canal;Alemania; Paseo ;;367; $10.00 ; $12.00 ; $-   ; $1,101.00 ;1/07/2022
+Gobierno;México; Paseo ;;883; $10.00 ; $7.00 ; $-   ; $4,415.00 ;1/08/2022
+Mercado medio;Francia; Paseo ;;549; $10.00 ; $15.00 ; $-   ; $5,490.00 ;1/09/2021
+Pequeños negocios;México; Paseo ;;788; $10.00 ; $300.00 ; $-   ; $197,000.00 ;1/09/2021
+Mercado medio;México; Paseo ;;2472; $10.00 ; $15.00 ; $-   ; $24,720.00 ;1/09/2022
+Gobierno;Estados Unidos; Paseo ;;1143; $10.00 ; $7.00 ; $-   ; $5,715.00 ;1/10/2022
+Gobierno;Canadá; Paseo ;;1725; $10.00 ; $350.00 ; $-   ; $448,500.00 ;1/11/2021
+Socios de canal;Estados Unidos; Paseo ;;912; $10.00 ; $12.00 ; $-   ; $2,736.00 ;1/11/2021
+Mercado medio;Canadá; Paseo ;;2152; $10.00 ; $15.00 ; $-   ; $21,520.00 ;1/12/2021
+Gobierno;Canadá; Paseo ;;1817; $10.00 ; $20.00 ; $-   ; $18,170.00 ;1/12/2022
+Gobierno;Alemania; Paseo ;;1513; $10.00 ; $350.00 ; $-   ; $393,380.00 ;1/12/2022
+Gobierno;México; Turismo ;;1493; $120.00 ; $7.00 ; $-   ; $7,465.00 ;1/01/2022
+Empresa;Francia; Turismo ;;1804; $120.00 ; $125.00 ; $-   ; $216,480.00 ;1/02/2022
+Socios de canal;Alemania; Turismo ;;2161; $120.00 ; $12.00 ; $-   ; $6,483.00 ;1/03/2022
+Gobierno;Alemania; Turismo ;;1006; $120.00 ; $350.00 ; $-   ; $261,560.00 ;1/06/2022
+Socios de canal;Alemania; Turismo ;;1545; $120.00 ; $12.00 ; $-   ; $4,635.00 ;1/06/2022
+Empresa;Estados Unidos; Turismo ;;2821; $120.00 ; $125.00 ; $-   ; $338,520.00 ;1/08/2022
+Empresa;Canadá; Turismo ;;345; $120.00 ; $125.00 ; $-   ; $41,400.00 ;1/10/2021
+Pequeños negocios;Canadá; VTT ;;2001; $250.00 ; $300.00 ; $-   ; $500,250.00 ;1/02/2022
+Socios de canal;Alemania; VTT ;;2838; $250.00 ; $12.00 ; $-   ; $8,514.00 ;1/04/2022
+Mercado medio;Francia; VTT ;;2178; $250.00 ; $15.00 ; $-   ; $21,780.00 ;1/06/2022
+Mercado medio;Alemania; VTT ;;888; $250.00 ; $15.00 ; $-   ; $8,880.00 ;1/06/2022
+Gobierno;Francia; VTT ;;1527; $250.00 ; $350.00 ; $-   ; $397,020.00 ;1/09/2021
+Pequeños negocios;Francia; VTT ;;2151; $250.00 ; $300.00 ; $-   ; $537,750.00 ;1/09/2022
+Gobierno;Canadá; VTT ;;1817; $250.00 ; $20.00 ; $-   ; $18,170.00 ;1/12/2022
+Gobierno;Francia; Urbana ;;2750; $260.00 ; $350.00 ; $-   ; $715,000.00 ;1/02/2022
+Socios de canal;Estados Unidos; Urbana ;;1953; $260.00 ; $12.00 ; $-   ; $5,859.00 ;1/04/2022
+Empresa;Alemania; Urbana ;;4219.5; $260.00 ; $125.00 ; $-   ; $506,340.00 ;1/04/2022
+Gobierno;Francia; Urbana ;;1899; $260.00 ; $20.00 ; $-   ; $18,990.00 ;1/06/2022
+Gobierno;Alemania; Urbana ;;1686; $260.00 ; $7.00 ; $-   ; $8,430.00 ;1/07/2022
+Socios de canal;Estados Unidos; Urbana ;;2141; $260.00 ; $12.00 ; $-   ; $6,423.00 ;1/08/2022
+Gobierno;Estados Unidos; Urbana ;;1143; $260.00 ; $7.00 ; $-   ; $5,715.00 ;1/10/2022
+Mercado medio;Estados Unidos; Urbana ;;615; $260.00 ; $15.00 ; $-   ; $6,150.00 ;1/12/2022
+Gobierno;Francia; Paseo ; Bajo ;3945; $10.00 ; $7.00 ; $276.15 ; $19,725.00 ;1/01/2022
+Mercado medio;Francia; Paseo ; Bajo ;2296; $10.00 ; $15.00 ; $344.40 ; $22,960.00 ;1/02/2022
+Gobierno;Francia; Paseo ; Bajo ;1030; $10.00 ; $7.00 ; $72.10 ; $5,150.00 ;1/05/2022
+Gobierno;Francia; Turismo ; Bajo ;639; $120.00 ; $7.00 ; $44.73 ; $3,195.00 ;1/11/2022
+Gobierno;Canadá; VTT ; Bajo ;1326; $250.00 ; $7.00 ; $92.82 ; $6,630.00 ;1/03/2022
+Socios de canal;Estados Unidos; Carretera ; Bajo ;1858; $3.00 ; $12.00 ; $222.96 ; $5,574.00 ;1/02/2022
+Gobierno;México; Carretera ; Bajo ;1210; $3.00 ; $350.00 ; $4,235.00 ; $314,600.00 ;1/03/2022
+Gobierno;Estados Unidos; Carretera ; Bajo ;2529; $3.00 ; $7.00 ; $177.03 ; $12,645.00 ;1/07/2022
+Socios de canal;Canadá; Carretera ; Bajo ;1445; $3.00 ; $12.00 ; $173.40 ; $4,335.00 ;1/09/2022
+Empresa;Estados Unidos; Carretera ; Bajo ;330; $3.00 ; $125.00 ; $412.50 ; $39,600.00 ;1/09/2021
+Socios de canal;Francia; Carretera ; Bajo ;2671; $3.00 ; $12.00 ; $320.52 ; $8,013.00 ;1/09/2022
+Socios de canal;Alemania; Carretera ; Bajo ;766; $3.00 ; $12.00 ; $91.92 ; $2,298.00 ;1/10/2021
+Pequeños negocios;México; Carretera ; Bajo ;494; $3.00 ; $300.00 ; $1,482.00 ; $123,500.00 ;1/10/2021
+Gobierno;México; Carretera ; Bajo ;1397; $3.00 ; $350.00 ; $4,889.50 ; $363,220.00 ;1/10/2022
+Gobierno;Francia; Carretera ; Bajo ;2155; $3.00 ; $350.00 ; $7,542.50 ; $560,300.00 ;1/12/2022
+Mercado medio;México; Montaña ; Bajo ;2214; $5.00 ; $15.00 ; $332.10 ; $22,140.00 ;1/03/2022
+Pequeños negocios;Estados Unidos; Montaña ; Bajo ;2301; $5.00 ; $300.00 ; $6,903.00 ; $575,250.00 ;1/04/2022
+Gobierno;Francia; Montaña ; Bajo ;1375.5; $5.00 ; $20.00 ; $275.10 ; $13,755.00 ;1/07/2022
+Gobierno;Canadá; Montaña ; Bajo ;1830; $5.00 ; $7.00 ; $128.10 ; $9,150.00 ;1/08/2022
+Pequeños negocios;Estados Unidos; Montaña ; Bajo ;2498; $5.00 ; $300.00 ; $7,494.00 ; $624,500.00 ;1/09/2021
+Empresa;Estados Unidos; Montaña ; Bajo ;663; $5.00 ; $125.00 ; $828.75 ; $79,560.00 ;1/10/2021
+Mercado medio;Estados Unidos; Paseo ; Bajo ;1514; $10.00 ; $15.00 ; $227.10 ; $15,140.00 ;1/02/2022
+Gobierno;Estados Unidos; Paseo ; Bajo ;4492.5; $10.00 ; $7.00 ; $314.48 ; $22,462.50 ;1/04/2022
+Empresa;Estados Unidos; Paseo ; Bajo ;727; $10.00 ; $125.00 ; $908.75 ; $87,240.00 ;1/06/2022
+Empresa;Francia; Paseo ; Bajo ;787; $10.00 ; $125.00 ; $983.75 ; $94,440.00 ;1/06/2022
+Empresa;México; Paseo ; Bajo ;1823; $10.00 ; $125.00 ; $2,278.75 ; $218,760.00 ;1/07/2022
+Mercado medio;Alemania; Paseo ; Bajo ;747; $10.00 ; $15.00 ; $112.05 ; $7,470.00 ;1/09/2022
+Socios de canal;Alemania; Paseo ; Bajo ;766; $10.00 ; $12.00 ; $91.92 ; $2,298.00 ;1/10/2021
+Pequeños negocios;Estados Unidos; Paseo ; Bajo ;2905; $10.00 ; $300.00 ; $8,715.00 ; $726,250.00 ;1/11/2022
+Gobierno;Francia; Paseo ; Bajo ;2155; $10.00 ; $350.00 ; $7,542.50 ; $560,300.00 ;1/12/2022
+Gobierno;Francia; Turismo ; Bajo ;3864; $120.00 ; $20.00 ; $772.80 ; $38,640.00 ;1/04/2022
+Gobierno;México; Turismo ; Bajo ;362; $120.00 ; $7.00 ; $25.34 ; $1,810.00 ;1/05/2022
+Empresa;Canadá; Turismo ; Bajo ;923; $120.00 ; $125.00 ; $1,153.75 ; $110,760.00 ;1/08/2022
+Empresa;Estados Unidos; Turismo ; Bajo ;663; $120.00 ; $125.00 ; $828.75 ; $79,560.00 ;1/10/2021
+Gobierno;Canadá; Turismo ; Bajo ;2092; $120.00 ; $7.00 ; $146.44 ; $10,460.00 ;1/11/2021
+Gobierno;Alemania; VTT ; Bajo ;263; $250.00 ; $7.00 ; $18.41 ; $1,315.00 ;1/03/2022
+Gobierno;Canadá; VTT ; Bajo ;943.5; $250.00 ; $350.00 ; $3,302.25 ; $245,310.00 ;1/04/2022
+Empresa;Estados Unidos; VTT ; Bajo ;727; $250.00 ; $125.00 ; $908.75 ; $87,240.00 ;1/06/2022
+Empresa;Francia; VTT ; Bajo ;787; $250.00 ; $125.00 ; $983.75 ; $94,440.00 ;1/06/2022
+Pequeños negocios;Alemania; VTT ; Bajo ;986; $250.00 ; $300.00 ; $2,958.00 ; $246,500.00 ;1/09/2022
+Pequeños negocios;México; VTT ; Bajo ;494; $250.00 ; $300.00 ; $1,482.00 ; $123,500.00 ;1/10/2021
+Gobierno;México; VTT ; Bajo ;1397; $250.00 ; $350.00 ; $4,889.50 ; $363,220.00 ;1/10/2022
+Empresa;Francia; VTT ; Bajo ;1744; $250.00 ; $125.00 ; $2,180.00 ; $209,280.00 ;1/11/2022
+Socios de canal;Estados Unidos; Urbana ; Bajo ;1989; $260.00 ; $12.00 ; $238.68 ; $5,967.00 ;1/09/2021
+Mercado medio;Francia; Urbana ; Bajo ;321; $260.00 ; $15.00 ; $48.15 ; $3,210.00 ;1/11/2021
+Empresa;Canadá; Carretera ; Bajo ;742.5; $3.00 ; $125.00 ; $1,856.25 ; $89,100.00 ;1/04/2022
+Socios de canal;Canadá; Carretera ; Bajo ;1295; $3.00 ; $12.00 ; $310.80 ; $3,885.00 ;1/10/2022
+Pequeños negocios;Alemania; Carretera ; Bajo ;214; $3.00 ; $300.00 ; $1,284.00 ; $53,500.00 ;1/10/2021
+Gobierno;Francia; Carretera ; Bajo ;2145; $3.00 ; $7.00 ; $300.30 ; $10,725.00 ;1/11/2021
+Gobierno;Canadá; Carretera ; Bajo ;2852; $3.00 ; $350.00 ; $19,964.00 ; $741,520.00 ;1/12/2022
+Socios de canal;Estados Unidos; Montaña ; Bajo ;1142; $5.00 ; $12.00 ; $274.08 ; $3,426.00 ;1/06/2022
+Gobierno;Estados Unidos; Montaña ; Bajo ;1566; $5.00 ; $20.00 ; $626.40 ; $15,660.00 ;1/10/2022
+Socios de canal;México; Montaña ; Bajo ;690; $5.00 ; $12.00 ; $165.60 ; $2,070.00 ;1/11/2022
+Empresa;México; Montaña ; Bajo ;1660; $5.00 ; $125.00 ; $4,150.00 ; $199,200.00 ;1/11/2021
+Mercado medio;Canadá; Paseo ; Bajo ;2363; $10.00 ; $15.00 ; $708.90 ; $23,630.00 ;1/02/2022
+Pequeños negocios;Francia; Paseo ; Bajo ;918; $10.00 ; $300.00 ; $5,508.00 ; $229,500.00 ;1/05/2022
+Pequeños negocios;Alemania; Paseo ; Bajo ;1728; $10.00 ; $300.00 ; $10,368.00 ; $432,000.00 ;1/05/2022
+Socios de canal;Estados Unidos; Paseo ; Bajo ;1142; $10.00 ; $12.00 ; $274.08 ; $3,426.00 ;1/06/2022
+Empresa;México; Paseo ; Bajo ;662; $10.00 ; $125.00 ; $1,655.00 ; $79,440.00 ;1/06/2022
+Socios de canal;Canadá; Paseo ; Bajo ;1295; $10.00 ; $12.00 ; $310.80 ; $3,885.00 ;1/10/2022
+Empresa;Alemania; Paseo ; Bajo ;809; $10.00 ; $125.00 ; $2,022.50 ; $97,080.00 ;1/10/2021
+Empresa;México; Paseo ; Bajo ;2145; $10.00 ; $125.00 ; $5,362.50 ; $257,400.00 ;1/10/2021
+Socios de canal;Francia; Paseo ; Bajo ;1785; $10.00 ; $12.00 ; $428.40 ; $5,355.00 ;1/11/2021
+Pequeños negocios;Canadá; Paseo ; Bajo ;1916; $10.00 ; $300.00 ; $11,496.00 ; $479,000.00 ;1/12/2022
+Gobierno;Canadá; Paseo ; Bajo ;2852; $10.00 ; $350.00 ; $19,964.00 ; $741,520.00 ;1/12/2022
+Empresa;Canadá; Paseo ; Bajo ;2729; $10.00 ; $125.00 ; $6,822.50 ; $327,480.00 ;1/12/2022
+Mercado medio;Estados Unidos; Paseo ; Bajo ;1925; $10.00 ; $15.00 ; $577.50 ; $19,250.00 ;1/12/2021
+Gobierno;Estados Unidos; Paseo ; Bajo ;2013; $10.00 ; $7.00 ; $281.82 ; $10,065.00 ;1/12/2021
+Socios de canal;Francia; Paseo ; Bajo ;1055; $10.00 ; $12.00 ; $253.20 ; $3,165.00 ;1/12/2022
+Socios de canal;México; Paseo ; Bajo ;1084; $10.00 ; $12.00 ; $260.16 ; $3,252.00 ;1/12/2022
+Gobierno;Estados Unidos; Turismo ; Bajo ;1566; $120.00 ; $20.00 ; $626.40 ; $15,660.00 ;1/10/2022
+Gobierno;Alemania; Turismo ; Bajo ;2966; $120.00 ; $350.00 ; $20,762.00 ; $771,160.00 ;1/10/2021
+Gobierno;Alemania; Turismo ; Bajo ;2877; $120.00 ; $350.00 ; $20,139.00 ; $748,020.00 ;1/10/2022
+Empresa;Alemania; Turismo ; Bajo ;809; $120.00 ; $125.00 ; $2,022.50 ; $97,080.00 ;1/10/2021
+Empresa;México; Turismo ; Bajo ;2145; $120.00 ; $125.00 ; $5,362.50 ; $257,400.00 ;1/10/2021
+Socios de canal;Francia; Turismo ; Bajo ;1055; $120.00 ; $12.00 ; $253.20 ; $3,165.00 ;1/12/2022
+Gobierno;México; Turismo ; Bajo ;544; $120.00 ; $20.00 ; $217.60 ; $5,440.00 ;1/12/2021
+Socios de canal;México; Turismo ; Bajo ;1084; $120.00 ; $12.00 ; $260.16 ; $3,252.00 ;1/12/2022
+Empresa;México; VTT ; Bajo ;662; $250.00 ; $125.00 ; $1,655.00 ; $79,440.00 ;1/06/2022
+Pequeños negocios;Alemania; VTT ; Bajo ;214; $250.00 ; $300.00 ; $1,284.00 ; $53,500.00 ;1/10/2021
+Gobierno;Alemania; VTT ; Bajo ;2877; $250.00 ; $350.00 ; $20,139.00 ; $748,020.00 ;1/10/2022
+Empresa;Canadá; VTT ; Bajo ;2729; $250.00 ; $125.00 ; $6,822.50 ; $327,480.00 ;1/12/2022
+Gobierno;Estados Unidos; VTT ; Bajo ;266; $250.00 ; $350.00 ; $1,862.00 ; $69,160.00 ;1/12/2021
+Gobierno;México; VTT ; Bajo ;1940; $250.00 ; $350.00 ; $13,580.00 ; $504,400.00 ;1/12/2021
+Pequeños negocios;Alemania; Urbana ; Bajo ;259; $260.00 ; $300.00 ; $1,554.00 ; $64,750.00 ;1/03/2022
+Pequeños negocios;México; Urbana ; Bajo ;1101; $260.00 ; $300.00 ; $6,606.00 ; $275,250.00 ;1/03/2022
+Empresa;Alemania; Urbana ; Bajo ;2276; $260.00 ; $125.00 ; $5,690.00 ; $273,120.00 ;1/05/2022
+Gobierno;Alemania; Urbana ; Bajo ;2966; $260.00 ; $350.00 ; $20,762.00 ; $771,160.00 ;1/10/2021
+Gobierno;Estados Unidos; Urbana ; Bajo ;1236; $260.00 ; $20.00 ; $494.40 ; $12,360.00 ;1/11/2022
+Gobierno;Francia; Urbana ; Bajo ;941; $260.00 ; $20.00 ; $376.40 ; $9,410.00 ;1/11/2022
+Pequeños negocios;Canadá; Urbana ; Bajo ;1916; $260.00 ; $300.00 ; $11,496.00 ; $479,000.00 ;1/12/2022
+Empresa;Francia; Carretera ; Bajo ;4243.5; $3.00 ; $125.00 ; $15,913.13 ; $509,220.00 ;1/04/2022
+Gobierno;Alemania; Carretera ; Bajo ;2580; $3.00 ; $20.00 ; $1,548.00 ; $25,800.00 ;1/04/2022
+Pequeños negocios;Alemania; Carretera ; Bajo ;689; $3.00 ; $300.00 ; $6,201.00 ; $172,250.00 ;1/06/2022
+Socios de canal;Estados Unidos; Carretera ; Bajo ;1947; $3.00 ; $12.00 ; $700.92 ; $5,841.00 ;1/09/2022
+Socios de canal;Canadá; Carretera ; Bajo ;908; $3.00 ; $12.00 ; $326.88 ; $2,724.00 ;1/12/2021
+Gobierno;Alemania; Montaña ; Bajo ;1958; $5.00 ; $7.00 ; $411.18 ; $9,790.00 ;1/02/2022
+Socios de canal;Francia; Montaña ; Bajo ;1901; $5.00 ; $12.00 ; $684.36 ; $5,703.00 ;1/06/2022
+Gobierno;Francia; Montaña ; Bajo ;544; $5.00 ; $7.00 ; $114.24 ; $2,720.00 ;1/09/2022
+Gobierno;Alemania; Montaña ; Bajo ;1797; $5.00 ; $350.00 ; $18,868.50 ; $467,220.00 ;1/09/2021
+Empresa;Francia; Montaña ; Bajo ;1287; $5.00 ; $125.00 ; $4,826.25 ; $154,440.00 ;1/12/2022
+Empresa;Alemania; Montaña ; Bajo ;1706; $5.00 ; $125.00 ; $6,397.50 ; $204,720.00 ;1/12/2022
+Pequeños negocios;Francia; Paseo ; Bajo ;2434.5; $10.00 ; $300.00 ; $21,910.50 ; $608,625.00 ;1/01/2022
+Empresa;Canadá; Paseo ; Bajo ;1774; $10.00 ; $125.00 ; $6,652.50 ; $212,880.00 ;1/03/2022
+Socios de canal;Francia; Paseo ; Bajo ;1901; $10.00 ; $12.00 ; $684.36 ; $5,703.00 ;1/06/2022
+Pequeños negocios;Alemania; Paseo ; Bajo ;689; $10.00 ; $300.00 ; $6,201.00 ; $172,250.00 ;1/06/2022
+Empresa;Alemania; Paseo ; Bajo ;1570; $10.00 ; $125.00 ; $5,887.50 ; $188,400.00 ;1/06/2022
+Socios de canal;Estados Unidos; Paseo ; Bajo ;1369.5; $10.00 ; $12.00 ; $493.02 ; $4,108.50 ;1/07/2022
+Empresa;Canadá; Paseo ; Bajo ;2009; $10.00 ; $125.00 ; $7,533.75 ; $241,080.00 ;1/10/2022
+Mercado medio;Alemania; Paseo ; Bajo ;1945; $10.00 ; $15.00 ; $875.25 ; $19,450.00 ;1/10/2021
+Empresa;Francia; Paseo ; Bajo ;1287; $10.00 ; $125.00 ; $4,826.25 ; $154,440.00 ;1/12/2022
+Empresa;Alemania; Paseo ; Bajo ;1706; $10.00 ; $125.00 ; $6,397.50 ; $204,720.00 ;1/12/2022
+Empresa;Canadá; Turismo ; Bajo ;2009; $120.00 ; $125.00 ; $7,533.75 ; $241,080.00 ;1/10/2022
+Pequeños negocios;Estados Unidos; VTT ; Bajo ;2844; $250.00 ; $300.00 ; $25,596.00 ; $711,000.00 ;1/02/2022
+Socios de canal;México; VTT ; Bajo ;1916; $250.00 ; $12.00 ; $689.76 ; $5,748.00 ;1/04/2022
+Empresa;Alemania; VTT ; Bajo ;1570; $250.00 ; $125.00 ; $5,887.50 ; $188,400.00 ;1/06/2022
+Pequeños negocios;Canadá; VTT ; Bajo ;1874; $250.00 ; $300.00 ; $16,866.00 ; $468,500.00 ;1/08/2022
+Gobierno;México; VTT ; Bajo ;1642; $250.00 ; $350.00 ; $17,241.00 ; $426,920.00 ;1/08/2022
+Mercado medio;Alemania; VTT ; Bajo ;1945; $250.00 ; $15.00 ; $875.25 ; $19,450.00 ;1/10/2021
+Gobierno;Canadá; Carretera ; Bajo ;831; $3.00 ; $20.00 ; $498.60 ; $8,310.00 ;1/05/2022
+Gobierno;México; Paseo ; Bajo ;1760; $10.00 ; $7.00 ; $369.60 ; $8,800.00 ;1/09/2021
+Gobierno;Canadá; Turismo ; Bajo ;3850.5; $120.00 ; $20.00 ; $2,310.30 ; $38,505.00 ;1/04/2022
+Socios de canal;Alemania; VTT ; Bajo ;2479; $250.00 ; $12.00 ; $892.44 ; $7,437.00 ;1/01/2022
+Mercado medio;México; Montaña ; Bajo ;2031; $5.00 ; $15.00 ; $1,218.60 ; $20,310.00 ;1/10/2022
+Mercado medio;México; Paseo ; Bajo ;2031; $10.00 ; $15.00 ; $1,218.60 ; $20,310.00 ;1/10/2022
+Mercado medio;Francia; Paseo ; Bajo ;2261; $10.00 ; $15.00 ; $1,356.60 ; $22,610.00 ;1/12/2021
+Gobierno;Estados Unidos; Turismo ; Bajo ;736; $120.00 ; $20.00 ; $588.80 ; $7,360.00 ;1/09/2021
+Gobierno;Canadá; Carretera ; Bajo ;2851; $3.00 ; $7.00 ; $798.28 ; $14,255.00 ;1/10/2021
+Pequeños negocios;Alemania; Carretera ; Bajo ;2021; $3.00 ; $300.00 ; $24,252.00 ; $505,250.00 ;1/10/2022
+Gobierno;Estados Unidos; Carretera ; Bajo ;274; $3.00 ; $350.00 ; $3,836.00 ; $71,240.00 ;1/12/2022
+Mercado medio;Canadá; Montaña ; Bajo ;1967; $5.00 ; $15.00 ; $1,180.20 ; $19,670.00 ;1/03/2022
+Pequeños negocios;Alemania; Montaña ; Bajo ;1859; $5.00 ; $300.00 ; $22,308.00 ; $464,750.00 ;1/08/2022
+Gobierno;Canadá; Montaña ; Bajo ;2851; $5.00 ; $7.00 ; $798.28 ; $14,255.00 ;1/10/2021
+Pequeños negocios;Alemania; Montaña ; Bajo ;2021; $5.00 ; $300.00 ; $24,252.00 ; $505,250.00 ;1/10/2022
+Empresa;México; Montaña ; Bajo ;1138; $5.00 ; $125.00 ; $5,690.00 ; $136,560.00 ;1/12/2022
+Gobierno;Canadá; Paseo ; Bajo ;4251; $10.00 ; $7.00 ; $1,190.28 ; $21,255.00 ;1/01/2022
+Empresa;Alemania; Paseo ; Bajo ;795; $10.00 ; $125.00 ; $3,975.00 ; $95,400.00 ;1/03/2022
+Pequeños negocios;Alemania; Paseo ; Bajo ;1414.5; $10.00 ; $300.00 ; $16,974.00 ; $353,625.00 ;1/04/2022
+Pequeños negocios;Estados Unidos; Paseo ; Bajo ;2918; $10.00 ; $300.00 ; $35,016.00 ; $729,500.00 ;1/05/2022
+Gobierno;Estados Unidos; Paseo ; Bajo ;3450; $10.00 ; $350.00 ; $48,300.00 ; $897,000.00 ;1/07/2022
+Empresa;Francia; Paseo ; Bajo ;2988; $10.00 ; $125.00 ; $14,940.00 ; $358,560.00 ;1/07/2022
+Mercado medio;Canadá; Paseo ; Bajo ;218; $10.00 ; $15.00 ; $130.80 ; $2,180.00 ;1/09/2022
+Gobierno;Canadá; Paseo ; Bajo ;2074; $10.00 ; $20.00 ; $1,659.20 ; $20,740.00 ;1/09/2022
+Gobierno;Estados Unidos; Paseo ; Bajo ;1056; $10.00 ; $20.00 ; $844.80 ; $10,560.00 ;1/09/2022
+Mercado medio;Estados Unidos; Paseo ; Bajo ;671; $10.00 ; $15.00 ; $402.60 ; $6,710.00 ;1/10/2021
+Mercado medio;México; Paseo ; Bajo ;1514; $10.00 ; $15.00 ; $908.40 ; $15,140.00 ;1/10/2021
+Gobierno;Estados Unidos; Paseo ; Bajo ;274; $10.00 ; $350.00 ; $3,836.00 ; $71,240.00 ;1/12/2022
+Empresa;México; Paseo ; Bajo ;1138; $10.00 ; $125.00 ; $5,690.00 ; $136,560.00 ;1/12/2022
+Socios de canal;Estados Unidos; Turismo ; Bajo ;1465; $120.00 ; $12.00 ; $703.20 ; $4,395.00 ;1/03/2022
+Gobierno;Canadá; Turismo ; Bajo ;2646; $120.00 ; $20.00 ; $2,116.80 ; $26,460.00 ;1/09/2021
+Gobierno;Francia; Turismo ; Bajo ;2177; $120.00 ; $350.00 ; $30,478.00 ; $566,020.00 ;1/10/2022
+Socios de canal;Francia; VTT ; Bajo ;866; $250.00 ; $12.00 ; $415.68 ; $2,598.00 ;1/05/2022
+Gobierno;Estados Unidos; VTT ; Bajo ;349; $250.00 ; $350.00 ; $4,886.00 ; $90,740.00 ;1/09/2021
+Gobierno;Francia; VTT ; Bajo ;2177; $250.00 ; $350.00 ; $30,478.00 ; $566,020.00 ;1/10/2022
+Mercado medio;México; VTT ; Bajo ;1514; $250.00 ; $15.00 ; $908.40 ; $15,140.00 ;1/10/2021
+Gobierno;México; Urbana ; Bajo ;1865; $260.00 ; $350.00 ; $26,110.00 ; $484,900.00 ;1/02/2022
+Empresa;México; Urbana ; Bajo ;1074; $260.00 ; $125.00 ; $5,370.00 ; $128,880.00 ;1/04/2022
+Gobierno;Alemania; Urbana ; Bajo ;1907; $260.00 ; $350.00 ; $26,698.00 ; $495,820.00 ;1/09/2022
+Mercado medio;Estados Unidos; Urbana ; Bajo ;671; $260.00 ; $15.00 ; $402.60 ; $6,710.00 ;1/10/2021
+Gobierno;Canadá; Urbana ; Bajo ;1778; $260.00 ; $350.00 ; $24,892.00 ; $462,280.00 ;1/12/2021
+Gobierno;Alemania; Montaña ; Medio ;1159; $5.00 ; $7.00 ; $405.65 ; $5,795.00 ;1/10/2021
+Gobierno;Alemania; Paseo ; Medio ;1372; $10.00 ; $7.00 ; $480.20 ; $6,860.00 ;1/01/2022
+Gobierno;Canadá; Paseo ; Medio ;2349; $10.00 ; $7.00 ; $822.15 ; $11,745.00 ;1/09/2021
+Gobierno;México; Paseo ; Medio ;2689; $10.00 ; $7.00 ; $941.15 ; $13,445.00 ;1/10/2022
+Socios de canal;Canadá; Paseo ; Medio ;2431; $10.00 ; $12.00 ; $1,458.60 ; $7,293.00 ;1/12/2022
+Socios de canal;Canadá; Turismo ; Medio ;2431; $120.00 ; $12.00 ; $1,458.60 ; $7,293.00 ;1/12/2022
+Gobierno;México; VTT ; Medio ;2689; $250.00 ; $7.00 ; $941.15 ; $13,445.00 ;1/10/2022
+Gobierno;México; Urbana ; Medio ;1683; $260.00 ; $7.00 ; $589.05 ; $8,415.00 ;1/07/2022
+Socios de canal;México; Urbana ; Medio ;1123; $260.00 ; $12.00 ; $673.80 ; $3,369.00 ;1/08/2022
+Gobierno;Alemania; Urbana ; Medio ;1159; $260.00 ; $7.00 ; $405.65 ; $5,795.00 ;1/10/2021
+Socios de canal;Francia; Carretera ; Medio ;1865; $3.00 ; $12.00 ; $1,119.00 ; $5,595.00 ;1/02/2022
+Socios de canal;Alemania; Carretera ; Medio ;1116; $3.00 ; $12.00 ; $669.60 ; $3,348.00 ;1/02/2022
+Gobierno;Francia; Carretera ; Medio ;1563; $3.00 ; $20.00 ; $1,563.00 ; $15,630.00 ;1/05/2022
+Pequeños negocios;Estados Unidos; Carretera ; Medio ;991; $3.00 ; $300.00 ; $14,865.00 ; $247,750.00 ;1/06/2022
+Gobierno;Alemania; Carretera ; Medio ;1016; $3.00 ; $7.00 ; $355.60 ; $5,080.00 ;1/11/2021
+Mercado medio;México; Carretera ; Medio ;2791; $3.00 ; $15.00 ; $2,093.25 ; $27,910.00 ;1/11/2022
+Gobierno;Estados Unidos; Carretera ; Medio ;570; $3.00 ; $7.00 ; $199.50 ; $2,850.00 ;1/12/2022
+Gobierno;Francia; Carretera ; Medio ;2487; $3.00 ; $7.00 ; $870.45 ; $12,435.00 ;1/12/2022
+Gobierno;Francia; Montaña ; Medio ;1384.5; $5.00 ; $350.00 ; $24,228.75 ; $359,970.00 ;1/01/2022
+Empresa;Estados Unidos; Montaña ; Medio ;3627; $5.00 ; $125.00 ; $22,668.75 ; $435,240.00 ;1/07/2022
+Gobierno;México; Montaña ; Medio ;720; $5.00 ; $350.00 ; $12,600.00 ; $187,200.00 ;1/09/2021
+Socios de canal;Alemania; Montaña ; Medio ;2342; $5.00 ; $12.00 ; $1,405.20 ; $7,026.00 ;1/11/2022
+Pequeños negocios;México; Montaña ; Medio ;1100; $5.00 ; $300.00 ; $16,500.00 ; $275,000.00 ;1/12/2021
+Gobierno;Francia; Paseo ; Medio ;1303; $10.00 ; $20.00 ; $1,303.00 ; $13,030.00 ;1/02/2022
+Empresa;Estados Unidos; Paseo ; Medio ;2992; $10.00 ; $125.00 ; $18,700.00 ; $359,040.00 ;1/03/2022
+Empresa;Francia; Paseo ; Medio ;2385; $10.00 ; $125.00 ; $14,906.25 ; $286,200.00 ;1/03/2022
+Pequeños negocios;México; Paseo ; Medio ;1607; $10.00 ; $300.00 ; $24,105.00 ; $401,750.00 ;1/04/2022
+Gobierno;Estados Unidos; Paseo ; Medio ;2327; $10.00 ; $7.00 ; $814.45 ; $11,635.00 ;1/05/2022
+Pequeños negocios;Estados Unidos; Paseo ; Medio ;991; $10.00 ; $300.00 ; $14,865.00 ; $247,750.00 ;1/06/2022
+Gobierno;Estados Unidos; Paseo ; Medio ;602; $10.00 ; $350.00 ; $10,535.00 ; $156,520.00 ;1/06/2022
+Mercado medio;Francia; Paseo ; Medio ;2620; $10.00 ; $15.00 ; $1,965.00 ; $26,200.00 ;1/09/2022
+Gobierno;Canadá; Paseo ; Medio ;1228; $10.00 ; $350.00 ; $21,490.00 ; $319,280.00 ;1/10/2021
+Gobierno;Canadá; Paseo ; Medio ;1389; $10.00 ; $20.00 ; $1,389.00 ; $13,890.00 ;1/10/2021
+Empresa;Estados Unidos; Paseo ; Medio ;861; $10.00 ; $125.00 ; $5,381.25 ; $103,320.00 ;1/10/2022
+Empresa;Francia; Paseo ; Medio ;704; $10.00 ; $125.00 ; $4,400.00 ; $84,480.00 ;1/10/2021
+Gobierno;Canadá; Paseo ; Medio ;1802; $10.00 ; $20.00 ; $1,802.00 ; $18,020.00 ;1/12/2021
+Gobierno;Estados Unidos; Paseo ; Medio ;2663; $10.00 ; $20.00 ; $2,663.00 ; $26,630.00 ;1/12/2022
+Gobierno;Francia; Paseo ; Medio ;2136; $10.00 ; $7.00 ; $747.60 ; $10,680.00 ;1/12/2021
+Mercado medio;Alemania; Paseo ; Medio ;2116; $10.00 ; $15.00 ; $1,587.00 ; $21,160.00 ;1/12/2021
+Mercado medio;Estados Unidos; Turismo ; Medio ;555; $120.00 ; $15.00 ; $416.25 ; $5,550.00 ;1/01/2022
+Mercado medio;México; Turismo ; Medio ;2861; $120.00 ; $15.00 ; $2,145.75 ; $28,610.00 ;1/01/2022
+Empresa;Alemania; Turismo ; Medio ;807; $120.00 ; $125.00 ; $5,043.75 ; $96,840.00 ;1/02/2022
+Gobierno;Estados Unidos; Turismo ; Medio ;602; $120.00 ; $350.00 ; $10,535.00 ; $156,520.00 ;1/06/2022
+Gobierno;Estados Unidos; Turismo ; Medio ;2832; $120.00 ; $20.00 ; $2,832.00 ; $28,320.00 ;1/08/2022
+Gobierno;Francia; Turismo ; Medio ;1579; $120.00 ; $20.00 ; $1,579.00 ; $15,790.00 ;1/08/2022
+Empresa;Estados Unidos; Turismo ; Medio ;861; $120.00 ; $125.00 ; $5,381.25 ; $103,320.00 ;1/10/2022
+Empresa;Francia; Turismo ; Medio ;704; $120.00 ; $125.00 ; $4,400.00 ; $84,480.00 ;1/10/2021
+Gobierno;Francia; Turismo ; Medio ;1033; $120.00 ; $20.00 ; $1,033.00 ; $10,330.00 ;1/12/2021
+Pequeños negocios;Alemania; Turismo ; Medio ;1250; $120.00 ; $300.00 ; $18,750.00 ; $312,500.00 ;1/12/2022
+Gobierno;Canadá; VTT ; Medio ;1389; $250.00 ; $20.00 ; $1,389.00 ; $13,890.00 ;1/10/2021
+Gobierno;Estados Unidos; VTT ; Medio ;1265; $250.00 ; $20.00 ; $1,265.00 ; $12,650.00 ;1/11/2021
+Gobierno;Alemania; VTT ; Medio ;2297; $250.00 ; $20.00 ; $2,297.00 ; $22,970.00 ;1/11/2021
+Gobierno;Estados Unidos; VTT ; Medio ;2663; $250.00 ; $20.00 ; $2,663.00 ; $26,630.00 ;1/12/2022
+Gobierno;Estados Unidos; VTT ; Medio ;570; $250.00 ; $7.00 ; $199.50 ; $2,850.00 ;1/12/2022
+Gobierno;Francia; VTT ; Medio ;2487; $250.00 ; $7.00 ; $870.45 ; $12,435.00 ;1/12/2022
+Gobierno;Alemania; Urbana ; Medio ;1350; $260.00 ; $350.00 ; $23,625.00 ; $351,000.00 ;1/02/2022
+Gobierno;Canadá; Urbana ; Medio ;552; $260.00 ; $350.00 ; $9,660.00 ; $143,520.00 ;1/08/2022
+Gobierno;Canadá; Urbana ; Medio ;1228; $260.00 ; $350.00 ; $21,490.00 ; $319,280.00 ;1/10/2021
+Pequeños negocios;Alemania; Urbana ; Medio ;1250; $260.00 ; $300.00 ; $18,750.00 ; $312,500.00 ;1/12/2022
+Mercado medio;Francia; Paseo ; Medio ;3801; $10.00 ; $15.00 ; $3,420.90 ; $38,010.00 ;1/04/2022
+Gobierno;Estados Unidos; Carretera ; Medio ;1117.5; $3.00 ; $20.00 ; $1,341.00 ; $11,175.00 ;1/01/2022
+Mercado medio;Canadá; Carretera ; Medio ;2844; $3.00 ; $15.00 ; $2,559.60 ; $28,440.00 ;1/06/2022
+Socios de canal;México; Carretera ; Medio ;562; $3.00 ; $12.00 ; $404.64 ; $1,686.00 ;1/09/2022
+Socios de canal;Canadá; Carretera ; Medio ;2299; $3.00 ; $12.00 ; $1,655.28 ; $6,897.00 ;1/10/2021
+Mercado medio;Estados Unidos; Carretera ; Medio ;2030; $3.00 ; $15.00 ; $1,827.00 ; $20,300.00 ;1/11/2022
+Gobierno;Estados Unidos; Carretera ; Medio ;263; $3.00 ; $7.00 ; $110.46 ; $1,315.00 ;1/11/2021
+Empresa;Alemania; Carretera ; Medio ;887; $3.00 ; $125.00 ; $6,652.50 ; $106,440.00 ;1/12/2021
+Gobierno;México; Montaña ; Medio ;980; $5.00 ; $350.00 ; $20,580.00 ; $254,800.00 ;1/04/2022
+Gobierno;Alemania; Montaña ; Medio ;1460; $5.00 ; $350.00 ; $30,660.00 ; $379,600.00 ;1/05/2022
+Gobierno;Francia; Montaña ; Medio ;1403; $5.00 ; $7.00 ; $589.26 ; $7,015.00 ;1/10/2021
+Socios de canal;Estados Unidos; Montaña ; Medio ;2723; $5.00 ; $12.00 ; $1,960.56 ; $8,169.00 ;1/11/2022
+Gobierno;Francia; Paseo ; Medio ;1496; $10.00 ; $350.00 ; $31,416.00 ; $388,960.00 ;1/06/2022
+Socios de canal;Canadá; Paseo ; Medio ;2299; $10.00 ; $12.00 ; $1,655.28 ; $6,897.00 ;1/10/2021
+Gobierno;Estados Unidos; Paseo ; Medio ;727; $10.00 ; $350.00 ; $15,267.00 ; $189,020.00 ;1/10/2021
+Empresa;Canadá; Turismo ; Medio ;952; $120.00 ; $125.00 ; $7,140.00 ; $114,240.00 ;1/02/2022
+Empresa;Estados Unidos; Turismo ; Medio ;2755; $120.00 ; $125.00 ; $20,662.50 ; $330,600.00 ;1/02/2022
+Mercado medio;Alemania; Turismo ; Medio ;1530; $120.00 ; $15.00 ; $1,377.00 ; $15,300.00 ;1/05/2022
+Gobierno;Francia; Turismo ; Medio ;1496; $120.00 ; $350.00 ; $31,416.00 ; $388,960.00 ;1/06/2022
+Gobierno;México; Turismo ; Medio ;1498; $120.00 ; $7.00 ; $629.16 ; $7,490.00 ;1/06/2022
+Pequeños negocios;Francia; Turismo ; Medio ;1221; $120.00 ; $300.00 ; $21,978.00 ; $305,250.00 ;1/10/2021
+Gobierno;Francia; Turismo ; Medio ;2076; $120.00 ; $350.00 ; $43,596.00 ; $539,760.00 ;1/10/2021
+Mercado medio;Canadá; VTT ; Medio ;2844; $250.00 ; $15.00 ; $2,559.60 ; $28,440.00 ;1/06/2022
+Gobierno;México; VTT ; Medio ;1498; $250.00 ; $7.00 ; $629.16 ; $7,490.00 ;1/06/2022
+Pequeños negocios;Francia; VTT ; Medio ;1221; $250.00 ; $300.00 ; $21,978.00 ; $305,250.00 ;1/10/2021
+Gobierno;México; VTT ; Medio ;1123; $250.00 ; $20.00 ; $1,347.60 ; $11,230.00 ;1/11/2021
+Pequeños negocios;Canadá; VTT ; Medio ;2436; $250.00 ; $300.00 ; $43,848.00 ; $609,000.00 ;1/12/2021
+Empresa;Francia; Urbana ; Medio ;1987.5; $260.00 ; $125.00 ; $14,906.25 ; $238,500.00 ;1/01/2022
+Gobierno;México; Urbana ; Medio ;1679; $260.00 ; $350.00 ; $35,259.00 ; $436,540.00 ;1/09/2022
+Gobierno;Estados Unidos; Urbana ; Medio ;727; $260.00 ; $350.00 ; $15,267.00 ; $189,020.00 ;1/10/2021
+Gobierno;Francia; Urbana ; Medio ;1403; $260.00 ; $7.00 ; $589.26 ; $7,015.00 ;1/10/2021
+Gobierno;Francia; Urbana ; Medio ;2076; $260.00 ; $350.00 ; $43,596.00 ; $539,760.00 ;1/10/2021
+Gobierno;Francia; Montaña ; Medio ;1757; $5.00 ; $20.00 ; $2,108.40 ; $17,570.00 ;1/10/2021
+Mercado medio;Estados Unidos; Paseo ; Medio ;2198; $10.00 ; $15.00 ; $1,978.20 ; $21,980.00 ;1/08/2022
+Mercado medio;Alemania; Paseo ; Medio ;1743; $10.00 ; $15.00 ; $1,568.70 ; $17,430.00 ;1/08/2022
+Mercado medio;Estados Unidos; Paseo ; Medio ;1153; $10.00 ; $15.00 ; $1,037.70 ; $11,530.00 ;1/10/2022
+Gobierno;Francia; Paseo ; Medio ;1757; $10.00 ; $20.00 ; $2,108.40 ; $17,570.00 ;1/10/2021
+Gobierno;Alemania; Turismo ; Medio ;1001; $120.00 ; $20.00 ; $1,201.20 ; $10,010.00 ;1/08/2022
+Gobierno;México; Turismo ; Medio ;1333; $120.00 ; $7.00 ; $559.86 ; $6,665.00 ;1/11/2022
+Mercado medio;Estados Unidos; VTT ; Medio ;1153; $250.00 ; $15.00 ; $1,037.70 ; $11,530.00 ;1/10/2022
+Socios de canal;México; Carretera ; Medio ;727; $3.00 ; $12.00 ; $610.68 ; $2,181.00 ;1/02/2022
+Socios de canal;Canadá; Carretera ; Medio ;1884; $3.00 ; $12.00 ; $1,582.56 ; $5,652.00 ;1/08/2022
+Gobierno;México; Carretera ; Medio ;1834; $3.00 ; $20.00 ; $2,567.60 ; $18,340.00 ;1/09/2021
+Socios de canal;México; Montaña ; Medio ;2340; $5.00 ; $12.00 ; $1,965.60 ; $7,020.00 ;1/01/2022
+Socios de canal;Francia; Montaña ; Medio ;2342; $5.00 ; $12.00 ; $1,967.28 ; $7,026.00 ;1/11/2022
+Gobierno;Francia; Paseo ; Medio ;1031; $10.00 ; $7.00 ; $505.19 ; $5,155.00 ;1/09/2021
+Mercado medio;Canadá; Turismo ; Medio ;1262; $120.00 ; $15.00 ; $1,325.10 ; $12,620.00 ;1/05/2022
+Gobierno;Canadá; Turismo ; Medio ;1135; $120.00 ; $7.00 ; $556.15 ; $5,675.00 ;1/06/2022
+Gobierno;Estados Unidos; Turismo ; Medio ;547; $120.00 ; $7.00 ; $268.03 ; $2,735.00 ;1/11/2022
+Gobierno;Canadá; Turismo ; Medio ;1582; $120.00 ; $7.00 ; $775.18 ; $7,910.00 ;1/12/2022
+Socios de canal;Francia; VTT ; Medio ;1738.5; $250.00 ; $12.00 ; $1,460.34 ; $5,215.50 ;1/04/2022
+Socios de canal;Alemania; VTT ; Medio ;2215; $250.00 ; $12.00 ; $1,860.60 ; $6,645.00 ;1/09/2021
+Gobierno;Canadá; VTT ; Medio ;1582; $250.00 ; $7.00 ; $775.18 ; $7,910.00 ;1/12/2022
+Gobierno;Canadá; Urbana ; Medio ;1135; $260.00 ; $7.00 ; $556.15 ; $5,675.00 ;1/06/2022
+Gobierno;Estados Unidos; Carretera ; Medio ;1761; $3.00 ; $350.00 ; $43,144.50 ; $457,860.00 ;1/03/2022
+Pequeños negocios;Francia; Carretera ; Medio ;448; $3.00 ; $300.00 ; $9,408.00 ; $112,000.00 ;1/06/2022
+Pequeños negocios;Francia; Carretera ; Medio ;2181; $3.00 ; $300.00 ; $45,801.00 ; $545,250.00 ;1/10/2022
+Gobierno;Francia; Montaña ; Medio ;1976; $5.00 ; $20.00 ; $2,766.40 ; $19,760.00 ;1/10/2022
+Pequeños negocios;Francia; Montaña ; Medio ;2181; $5.00 ; $300.00 ; $45,801.00 ; $545,250.00 ;1/10/2022
+Empresa;Alemania; Montaña ; Medio ;2500; $5.00 ; $125.00 ; $21,875.00 ; $300,000.00 ;1/11/2021
+Pequeños negocios;Canadá; Paseo ; Medio ;1702; $10.00 ; $300.00 ; $35,742.00 ; $425,500.00 ;1/05/2022
+Pequeños negocios;Francia; Paseo ; Medio ;448; $10.00 ; $300.00 ; $9,408.00 ; $112,000.00 ;1/06/2022
+Empresa;Alemania; Paseo ; Medio ;3513; $10.00 ; $125.00 ; $30,738.75 ; $421,560.00 ;1/07/2022
+Mercado medio;Francia; Paseo ; Medio ;2101; $10.00 ; $15.00 ; $2,206.05 ; $21,010.00 ;1/08/2022
+Mercado medio;Estados Unidos; Paseo ; Medio ;2931; $10.00 ; $15.00 ; $3,077.55 ; $29,310.00 ;1/09/2021
+Gobierno;Francia; Paseo ; Medio ;1535; $10.00 ; $20.00 ; $2,149.00 ; $15,350.00 ;1/09/2022
+Pequeños negocios;Alemania; Paseo ; Medio ;1123; $10.00 ; $300.00 ; $23,583.00 ; $280,750.00 ;1/09/2021
+Pequeños negocios;Canadá; Paseo ; Medio ;1404; $10.00 ; $300.00 ; $29,484.00 ; $351,000.00 ;1/11/2021
+Socios de canal;México; Paseo ; Medio ;2763; $10.00 ; $12.00 ; $2,320.92 ; $8,289.00 ;1/11/2021
+Gobierno;Alemania; Paseo ; Medio ;2125; $10.00 ; $7.00 ; $1,041.25 ; $10,625.00 ;1/12/2021
+Pequeños negocios;Francia; Turismo ; Medio ;1659; $120.00 ; $300.00 ; $34,839.00 ; $414,750.00 ;1/07/2022
+Gobierno;México; Turismo ; Medio ;609; $120.00 ; $20.00 ; $852.60 ; $6,090.00 ;1/08/2022
+Empresa;Alemania; Turismo ; Medio ;2087; $120.00 ; $125.00 ; $18,261.25 ; $250,440.00 ;1/09/2022
+Gobierno;Francia; Turismo ; Medio ;1976; $120.00 ; $20.00 ; $2,766.40 ; $19,760.00 ;1/10/2022
+Gobierno;Estados Unidos; Turismo ; Medio ;1421; $120.00 ; $20.00 ; $1,989.40 ; $14,210.00 ;1/12/2021
+Pequeños negocios;Estados Unidos; Turismo ; Medio ;1372; $120.00 ; $300.00 ; $28,812.00 ; $343,000.00 ;1/12/2022
+Gobierno;Alemania; Turismo ; Medio ;588; $120.00 ; $20.00 ; $823.20 ; $5,880.00 ;1/12/2021
+Socios de canal;Canadá; VTT ; Medio ;3244.5; $250.00 ; $12.00 ; $2,725.38 ; $9,733.50 ;1/01/2022
+Pequeños negocios;Francia; VTT ; Medio ;959; $250.00 ; $300.00 ; $20,139.00 ; $239,750.00 ;1/02/2022
+Pequeños negocios;México; VTT ; Medio ;2747; $250.00 ; $300.00 ; $57,687.00 ; $686,750.00 ;1/02/2022
+Empresa;Canadá; Urbana ; Medio ;1645; $260.00 ; $125.00 ; $14,393.75 ; $197,400.00 ;1/05/2022
+Gobierno;Francia; Urbana ; Medio ;2876; $260.00 ; $350.00 ; $70,462.00 ; $747,760.00 ;1/09/2022
+Empresa;Alemania; Urbana ; Medio ;994; $260.00 ; $125.00 ; $8,697.50 ; $119,280.00 ;1/09/2021
+Gobierno;Canadá; Urbana ; Medio ;1118; $260.00 ; $20.00 ; $1,565.20 ; $11,180.00 ;1/11/2022
+Pequeños negocios;Estados Unidos; Urbana ; Medio ;1372; $260.00 ; $300.00 ; $28,812.00 ; $343,000.00 ;1/12/2022
+Gobierno;Canadá; Montaña ; Medio ;488; $5.00 ; $7.00 ; $273.28 ; $2,440.00 ;1/02/2022
+Gobierno;Estados Unidos; Montaña ; Medio ;1282; $5.00 ; $20.00 ; $2,051.20 ; $12,820.00 ;1/06/2022
+Gobierno;Canadá; Paseo ; Medio ;257; $10.00 ; $7.00 ; $143.92 ; $1,285.00 ;1/05/2022
+Gobierno;Estados Unidos; Urbana ; Medio ;1282; $260.00 ; $20.00 ; $2,051.20 ; $12,820.00 ;1/06/2022
+Empresa;México; Carretera ; Medio ;1540; $3.00 ; $125.00 ; $15,400.00 ; $184,800.00 ;1/08/2022
+Mercado medio;Francia; Carretera ; Medio ;490; $3.00 ; $15.00 ; $588.00 ; $4,900.00 ;1/11/2022
+Gobierno;México; Carretera ; Medio ;1362; $3.00 ; $350.00 ; $38,136.00 ; $354,120.00 ;1/12/2022
+Mercado medio;Francia; Montaña ; Medio ;2501; $5.00 ; $15.00 ; $3,001.20 ; $25,010.00 ;1/03/2022
+Gobierno;Canadá; Montaña ; Medio ;708; $5.00 ; $20.00 ; $1,132.80 ; $7,080.00 ;1/06/2022
+Gobierno;Alemania; Montaña ; Medio ;645; $5.00 ; $20.00 ; $1,032.00 ; $6,450.00 ;1/07/2022
+Pequeños negocios;Francia; Montaña ; Medio ;1562; $5.00 ; $300.00 ; $37,488.00 ; $390,500.00 ;1/08/2022
+Pequeños negocios;Canadá; Montaña ; Medio ;1283; $5.00 ; $300.00 ; $30,792.00 ; $320,750.00 ;1/09/2021
+Mercado medio;Alemania; Montaña ; Medio ;711; $5.00 ; $15.00 ; $853.20 ; $7,110.00 ;1/12/2022
+Empresa;México; Paseo ; Medio ;1114; $10.00 ; $125.00 ; $11,140.00 ; $133,680.00 ;1/03/2022
+Gobierno;Alemania; Paseo ; Medio ;1259; $10.00 ; $7.00 ; $705.04 ; $6,295.00 ;1/04/2022
+Gobierno;Alemania; Paseo ; Medio ;1095; $10.00 ; $7.00 ; $613.20 ; $5,475.00 ;1/05/2022
+Gobierno;Alemania; Paseo ; Medio ;1366; $10.00 ; $20.00 ; $2,185.60 ; $13,660.00 ;1/06/2022
+Pequeños negocios;México; Paseo ; Medio ;2460; $10.00 ; $300.00 ; $59,040.00 ; $615,000.00 ;1/06/2022
+Gobierno;Estados Unidos; Paseo ; Medio ;678; $10.00 ; $7.00 ; $379.68 ; $3,390.00 ;1/08/2022
+Gobierno;Alemania; Paseo ; Medio ;1598; $10.00 ; $7.00 ; $894.88 ; $7,990.00 ;1/08/2022
+Gobierno;Alemania; Paseo ; Medio ;2409; $10.00 ; $7.00 ; $1,349.04 ; $12,045.00 ;1/09/2021
+Gobierno;Alemania; Paseo ; Medio ;1934; $10.00 ; $20.00 ; $3,094.40 ; $19,340.00 ;1/09/2022
+Gobierno;México; Paseo ; Medio ;2993; $10.00 ; $20.00 ; $4,788.80 ; $29,930.00 ;1/09/2022
+Gobierno;Alemania; Paseo ; Medio ;2146; $10.00 ; $350.00 ; $60,088.00 ; $557,960.00 ;1/11/2021
+Gobierno;México; Paseo ; Medio ;1946; $10.00 ; $7.00 ; $1,089.76 ; $9,730.00 ;1/12/2021
+Gobierno;México; Paseo ; Medio ;1362; $10.00 ; $350.00 ; $38,136.00 ; $354,120.00 ;1/12/2022
+Socios de canal;Canadá; Turismo ; Medio ;598; $120.00 ; $12.00 ; $574.08 ; $1,794.00 ;1/03/2022
+Gobierno;Estados Unidos; Turismo ; Medio ;2907; $120.00 ; $7.00 ; $1,627.92 ; $14,535.00 ;1/06/2022
+Gobierno;Alemania; Turismo ; Medio ;2338; $120.00 ; $7.00 ; $1,309.28 ; $11,690.00 ;1/06/2022
+Pequeños negocios;Francia; Turismo ; Medio ;386; $120.00 ; $300.00 ; $9,264.00 ; $96,500.00 ;1/11/2021
+Pequeños negocios;México; Turismo ; Medio ;635; $120.00 ; $300.00 ; $15,240.00 ; $158,750.00 ;1/12/2022
+Gobierno;Francia; VTT ; Medio ;574.5; $250.00 ; $350.00 ; $16,086.00 ; $149,370.00 ;1/04/2022
+Gobierno;Alemania; VTT ; Medio ;2338; $250.00 ; $7.00 ; $1,309.28 ; $11,690.00 ;1/06/2022
+Gobierno;Francia; VTT ; Medio ;381; $250.00 ; $350.00 ; $10,668.00 ; $99,060.00 ;1/08/2022
+Gobierno;Alemania; VTT ; Medio ;422; $250.00 ; $350.00 ; $11,816.00 ; $109,720.00 ;1/08/2022
+Pequeños negocios;Canadá; VTT ; Medio ;2134; $250.00 ; $300.00 ; $51,216.00 ; $533,500.00 ;1/09/2022
+Pequeños negocios;Estados Unidos; VTT ; Medio ;808; $250.00 ; $300.00 ; $19,392.00 ; $202,000.00 ;1/12/2021
+Gobierno;Canadá; Urbana ; Medio ;708; $260.00 ; $20.00 ; $1,132.80 ; $7,080.00 ;1/06/2022
+Gobierno;Estados Unidos; Urbana ; Medio ;2907; $260.00 ; $7.00 ; $1,627.92 ; $14,535.00 ;1/06/2022
+Gobierno;Alemania; Urbana ; Medio ;1366; $260.00 ; $20.00 ; $2,185.60 ; $13,660.00 ;1/06/2022
+Pequeños negocios;México; Urbana ; Medio ;2460; $260.00 ; $300.00 ; $59,040.00 ; $615,000.00 ;1/06/2022
+Gobierno;Alemania; Urbana ; Medio ;1520; $260.00 ; $20.00 ; $2,432.00 ; $15,200.00 ;1/11/2022
+Mercado medio;Alemania; Urbana ; Medio ;711; $260.00 ; $15.00 ; $853.20 ; $7,110.00 ;1/12/2022
+Socios de canal;México; Urbana ; Medio ;1375; $260.00 ; $12.00 ; $1,320.00 ; $4,125.00 ;1/12/2021
+Pequeños negocios;México; Urbana ; Medio ;635; $260.00 ; $300.00 ; $15,240.00 ; $158,750.00 ;1/12/2022
+Gobierno;Estados Unidos; VTT ; Medio ;436.5; $250.00 ; $20.00 ; $698.40 ; $4,365.00 ;1/07/2022
+Pequeños negocios;Canadá; Carretera ; Medio ;1094; $3.00 ; $300.00 ; $29,538.00 ; $273,500.00 ;1/06/2022
+Socios de canal;México; Carretera ; Medio ;367; $3.00 ; $12.00 ; $396.36 ; $1,101.00 ;1/10/2021
+Pequeños negocios;Canadá; Montaña ; Medio ;3802.5; $5.00 ; $300.00 ; $102,667.50 ; $950,625.00 ;1/04/2022
+Gobierno;Francia; Montaña ; Medio ;1666; $5.00 ; $350.00 ; $52,479.00 ; $433,160.00 ;1/05/2022
+Pequeños negocios;Francia; Montaña ; Medio ;322; $5.00 ; $300.00 ; $8,694.00 ; $80,500.00 ;1/09/2021
+Socios de canal;Canadá; Montaña ; Medio ;2321; $5.00 ; $12.00 ; $2,506.68 ; $6,963.00 ;1/11/2022
+Empresa;Francia; Montaña ; Medio ;1857; $5.00 ; $125.00 ; $20,891.25 ; $222,840.00 ;1/11/2021
+Gobierno;Canadá; Montaña ; Medio ;1611; $5.00 ; $7.00 ; $1,014.93 ; $8,055.00 ;1/12/2021
+Empresa;Estados Unidos; Montaña ; Medio ;2797; $5.00 ; $125.00 ; $31,466.25 ; $335,640.00 ;1/12/2022
+Pequeños negocios;Alemania; Montaña ; Medio ;334; $5.00 ; $300.00 ; $9,018.00 ; $83,500.00 ;1/12/2021
+Pequeños negocios;México; Paseo ; Medio ;2565; $10.00 ; $300.00 ; $69,255.00 ; $641,250.00 ;1/01/2022
+Gobierno;México; Paseo ; Medio ;2417; $10.00 ; $350.00 ; $76,135.50 ; $628,420.00 ;1/01/2022
+Mercado medio;Estados Unidos; Paseo ; Medio ;3675; $10.00 ; $15.00 ; $4,961.25 ; $36,750.00 ;1/04/2022
+Pequeños negocios;Canadá; Paseo ; Medio ;1094; $10.00 ; $300.00 ; $29,538.00 ; $273,500.00 ;1/06/2022
+Mercado medio;Francia; Paseo ; Medio ;1227; $10.00 ; $15.00 ; $1,656.45 ; $12,270.00 ;1/10/2022
+Socios de canal;México; Paseo ; Medio ;367; $10.00 ; $12.00 ; $396.36 ; $1,101.00 ;1/10/2021
+Pequeños negocios;Francia; Paseo ; Medio ;1324; $10.00 ; $300.00 ; $35,748.00 ; $331,000.00 ;1/11/2022
+Socios de canal;Alemania; Paseo ; Medio ;1775; $10.00 ; $12.00 ; $1,917.00 ; $5,325.00 ;1/11/2021
+Empresa;Estados Unidos; Paseo ; Medio ;2797; $10.00 ; $125.00 ; $31,466.25 ; $335,640.00 ;1/12/2022
+Mercado medio;México; Turismo ; Medio ;245; $120.00 ; $15.00 ; $330.75 ; $2,450.00 ;1/05/2022
+Pequeños negocios;Canadá; Turismo ; Medio ;3793.5; $120.00 ; $300.00 ; $102,424.50 ; $948,375.00 ;1/07/2022
+Gobierno;Alemania; Turismo ; Medio ;1307; $120.00 ; $350.00 ; $41,170.50 ; $339,820.00 ;1/07/2022
+Empresa;Canadá; Turismo ; Medio ;567; $120.00 ; $125.00 ; $6,378.75 ; $68,040.00 ;1/09/2022
+Empresa;México; Turismo ; Medio ;2110; $120.00 ; $125.00 ; $23,737.50 ; $253,200.00 ;1/09/2022
+Gobierno;Canadá; Turismo ; Medio ;1269; $120.00 ; $350.00 ; $39,973.50 ; $329,940.00 ;1/10/2022
+Socios de canal;Estados Unidos; VTT ; Medio ;1956; $250.00 ; $12.00 ; $2,112.48 ; $5,868.00 ;1/01/2022
+Pequeños negocios;Alemania; VTT ; Medio ;2659; $250.00 ; $300.00 ; $71,793.00 ; $664,750.00 ;1/02/2022
+Gobierno;Estados Unidos; VTT ; Medio ;1351.5; $250.00 ; $350.00 ; $42,572.25 ; $351,390.00 ;1/04/2022
+Socios de canal;Alemania; VTT ; Medio ;880; $250.00 ; $12.00 ; $950.40 ; $2,640.00 ;1/05/2022
+Pequeños negocios;Estados Unidos; VTT ; Medio ;1867; $250.00 ; $300.00 ; $50,409.00 ; $466,750.00 ;1/09/2022
+Socios de canal;Francia; VTT ; Medio ;2234; $250.00 ; $12.00 ; $2,412.72 ; $6,702.00 ;1/09/2021
+Mercado medio;Francia; VTT ; Medio ;1227; $250.00 ; $15.00 ; $1,656.45 ; $12,270.00 ;1/10/2022
+Empresa;México; VTT ; Medio ;877; $250.00 ; $125.00 ; $9,866.25 ; $105,240.00 ;1/11/2022
+Gobierno;Estados Unidos; Urbana ; Medio ;2071; $260.00 ; $350.00 ; $65,236.50 ; $538,460.00 ;1/09/2022
+Gobierno;Canadá; Urbana ; Medio ;1269; $260.00 ; $350.00 ; $39,973.50 ; $329,940.00 ;1/10/2022
+Mercado medio;Alemania; Urbana ; Medio ;970; $260.00 ; $15.00 ; $1,309.50 ; $9,700.00 ;1/11/2021
+Gobierno;México; Urbana ; Medio ;1694; $260.00 ; $20.00 ; $3,049.20 ; $16,940.00 ;1/11/2022
+Gobierno;Alemania; Carretera ; Medio ;663; $3.00 ; $20.00 ; $1,193.40 ; $6,630.00 ;1/05/2022
+Gobierno;Canadá; Carretera ; Medio ;819; $3.00 ; $7.00 ; $515.97 ; $4,095.00 ;1/07/2022
+Socios de canal;Alemania; Carretera ; Medio ;1580; $3.00 ; $12.00 ; $1,706.40 ; $4,740.00 ;1/09/2022
+Gobierno;México; Carretera ; Medio ;521; $3.00 ; $7.00 ; $328.23 ; $2,605.00 ;1/12/2022
+Gobierno;Estados Unidos; Paseo ; Medio ;973; $10.00 ; $20.00 ; $1,751.40 ; $9,730.00 ;1/03/2022
+Gobierno;México; Paseo ; Medio ;1038; $10.00 ; $20.00 ; $1,868.40 ; $10,380.00 ;1/06/2022
+Gobierno;Alemania; Paseo ; Medio ;360; $10.00 ; $7.00 ; $226.80 ; $1,800.00 ;1/10/2022
+Socios de canal;Francia; Turismo ; Medio ;1967; $120.00 ; $12.00 ; $2,124.36 ; $5,901.00 ;1/03/2022
+Mercado medio;México; Turismo ; Medio ;2628; $120.00 ; $15.00 ; $3,547.80 ; $26,280.00 ;1/04/2022
+Gobierno;Alemania; VTT ; Medio ;360; $250.00 ; $7.00 ; $226.80 ; $1,800.00 ;1/10/2022
+Gobierno;Francia; VTT ; Medio ;2682; $250.00 ; $20.00 ; $4,827.60 ; $26,820.00 ;1/11/2021
+Gobierno;México; VTT ; Medio ;521; $250.00 ; $7.00 ; $328.23 ; $2,605.00 ;1/12/2022
+Gobierno;México; Urbana ; Medio ;1038; $260.00 ; $20.00 ; $1,868.40 ; $10,380.00 ;1/06/2022
+Mercado medio;Canadá; Urbana ; Medio ;1630.5; $260.00 ; $15.00 ; $2,201.18 ; $16,305.00 ;1/07/2022
+Socios de canal;Francia; Urbana ; Medio ;306; $260.00 ; $12.00 ; $330.48 ; $918.00 ;1/12/2021
+Socios de canal;Estados Unidos; Carretera ; Alto ;386; $3.00 ; $12.00 ; $463.20 ; $1,158.00 ;1/10/2021
+Gobierno;Estados Unidos; Montaña ; Alto ;2328; $5.00 ; $7.00 ; $1,629.60 ; $11,640.00 ;1/09/2022
+Socios de canal;Estados Unidos; Paseo ; Alto ;386; $10.00 ; $12.00 ; $463.20 ; $1,158.00 ;1/10/2021
+Empresa;Estados Unidos; Carretera ; Alto ;3445.5; $3.00 ; $125.00 ; $43,068.75 ; $413,460.00 ;1/04/2022
+Empresa;Francia; Carretera ; Alto ;1482; $3.00 ; $125.00 ; $18,525.00 ; $177,840.00 ;1/12/2021
+Gobierno;Estados Unidos; Montaña ; Alto ;2313; $5.00 ; $350.00 ; $80,955.00 ; $601,380.00 ;1/05/2022
+Empresa;Estados Unidos; Montaña ; Alto ;1804; $5.00 ; $125.00 ; $22,550.00 ; $216,480.00 ;1/11/2021
+Mercado medio;Francia; Montaña ; Alto ;2072; $5.00 ; $15.00 ; $3,108.00 ; $20,720.00 ;1/12/2022
+Gobierno;Francia; Paseo ; Alto ;1954; $10.00 ; $20.00 ; $3,908.00 ; $19,540.00 ;1/03/2022
+Pequeños negocios;México; Paseo ; Alto ;591; $10.00 ; $300.00 ; $17,730.00 ; $147,750.00 ;1/05/2022
+Mercado medio;Francia; Paseo ; Alto ;2167; $10.00 ; $15.00 ; $3,250.50 ; $21,670.00 ;1/10/2021
+Gobierno;Alemania; Paseo ; Alto ;241; $10.00 ; $20.00 ; $482.00 ; $2,410.00 ;1/10/2022
+Mercado medio;Alemania; Turismo ; Alto ;681; $120.00 ; $15.00 ; $1,021.50 ; $6,810.00 ;1/01/2022
+Mercado medio;Alemania; Turismo ; Alto ;510; $120.00 ; $15.00 ; $765.00 ; $5,100.00 ;1/04/2022
+Mercado medio;Estados Unidos; Turismo ; Alto ;790; $120.00 ; $15.00 ; $1,185.00 ; $7,900.00 ;1/05/2022
+Gobierno;Francia; Turismo ; Alto ;639; $120.00 ; $350.00 ; $22,365.00 ; $166,140.00 ;1/07/2022
+Empresa;Estados Unidos; Turismo ; Alto ;1596; $120.00 ; $125.00 ; $19,950.00 ; $191,520.00 ;1/09/2022
+Pequeños negocios;Estados Unidos; Turismo ; Alto ;2294; $120.00 ; $300.00 ; $68,820.00 ; $573,500.00 ;1/10/2021
+Gobierno;Alemania; Turismo ; Alto ;241; $120.00 ; $20.00 ; $482.00 ; $2,410.00 ;1/10/2022
+Gobierno;Alemania; Turismo ; Alto ;2665; $120.00 ; $7.00 ; $1,865.50 ; $13,325.00 ;1/11/2022
+Empresa;Canadá; Turismo ; Alto ;1916; $120.00 ; $125.00 ; $23,950.00 ; $229,920.00 ;1/12/2021
+Pequeños negocios;Francia; Turismo ; Alto ;853; $120.00 ; $300.00 ; $25,590.00 ; $213,250.00 ;1/12/2022
+Empresa;México; VTT ; Alto ;341; $250.00 ; $125.00 ; $4,262.50 ; $40,920.00 ;1/05/2022
+Mercado medio;México; VTT ; Alto ;641; $250.00 ; $15.00 ; $961.50 ; $6,410.00 ;1/07/2022
+Gobierno;Estados Unidos; VTT ; Alto ;2807; $250.00 ; $350.00 ; $98,245.00 ; $729,820.00 ;1/08/2022
+Pequeños negocios;México; VTT ; Alto ;432; $250.00 ; $300.00 ; $12,960.00 ; $108,000.00 ;1/09/2022
+Pequeños negocios;Estados Unidos; VTT ; Alto ;2294; $250.00 ; $300.00 ; $68,820.00 ; $573,500.00 ;1/10/2021
+Mercado medio;Francia; VTT ; Alto ;2167; $250.00 ; $15.00 ; $3,250.50 ; $21,670.00 ;1/10/2021
+Empresa;Canadá; VTT ; Alto ;2529; $250.00 ; $125.00 ; $31,612.50 ; $303,480.00 ;1/11/2022
+Gobierno;Alemania; VTT ; Alto ;1870; $250.00 ; $350.00 ; $65,450.00 ; $486,200.00 ;1/12/2021
+Empresa;Estados Unidos; Urbana ; Alto ;579; $260.00 ; $125.00 ; $7,237.50 ; $69,480.00 ;1/01/2022
+Gobierno;Canadá; Urbana ; Alto ;2240; $260.00 ; $350.00 ; $78,400.00 ; $582,400.00 ;1/02/2022
+Pequeños negocios;Estados Unidos; Urbana ; Alto ;2993; $260.00 ; $300.00 ; $89,790.00 ; $748,250.00 ;1/03/2022
+Socios de canal;Canadá; Urbana ; Alto ;3520.5; $260.00 ; $12.00 ; $4,224.60 ; $10,561.50 ;1/04/2022
+Gobierno;México; Urbana ; Alto ;2039; $260.00 ; $20.00 ; $4,078.00 ; $20,390.00 ;1/05/2022
+Socios de canal;Alemania; Urbana ; Alto ;2574; $260.00 ; $12.00 ; $3,088.80 ; $7,722.00 ;1/08/2022
+Gobierno;Canadá; Urbana ; Alto ;707; $260.00 ; $350.00 ; $24,745.00 ; $183,820.00 ;1/09/2022
+Mercado medio;Francia; Urbana ; Alto ;2072; $260.00 ; $15.00 ; $3,108.00 ; $20,720.00 ;1/12/2022
+Pequeños negocios;Francia; Urbana ; Alto ;853; $260.00 ; $300.00 ; $25,590.00 ; $213,250.00 ;1/12/2022
+Socios de canal;Francia; Carretera ; Alto ;1198; $3.00 ; $12.00 ; $1,581.36 ; $3,594.00 ;1/10/2021
+Gobierno;Francia; Paseo ; Alto ;2532; $10.00 ; $7.00 ; $1,949.64 ; $12,660.00 ;1/04/2022
+Socios de canal;Francia; Paseo ; Alto ;1198; $10.00 ; $12.00 ; $1,581.36 ; $3,594.00 ;1/10/2021
+Mercado medio;Canadá; Turismo ; Alto ;384; $120.00 ; $15.00 ; $633.60 ; $3,840.00 ;1/01/2022
+Socios de canal;Alemania; Turismo ; Alto ;472; $120.00 ; $12.00 ; $623.04 ; $1,416.00 ;1/10/2022
+Gobierno;Estados Unidos; VTT ; Alto ;1579; $250.00 ; $7.00 ; $1,215.83 ; $7,895.00 ;1/03/2022
+Socios de canal;México; VTT ; Alto ;1005; $250.00 ; $12.00 ; $1,326.60 ; $3,015.00 ;1/09/2021
+Mercado medio;Estados Unidos; Urbana ; Alto ;3199.5; $260.00 ; $15.00 ; $5,279.18 ; $31,995.00 ;1/07/2022
+Socios de canal;Alemania; Urbana ; Alto ;472; $260.00 ; $12.00 ; $623.04 ; $1,416.00 ;1/10/2022
+Socios de canal;Canadá; Carretera ; Alto ;1937; $3.00 ; $12.00 ; $2,556.84 ; $5,811.00 ;1/02/2022
+Gobierno;Alemania; Carretera ; Alto ;792; $3.00 ; $350.00 ; $30,492.00 ; $205,920.00 ;1/03/2022
+Pequeños negocios;Alemania; Carretera ; Alto ;2811; $3.00 ; $300.00 ; $92,763.00 ; $702,750.00 ;1/07/2022
+Empresa;Francia; Carretera ; Alto ;2441; $3.00 ; $125.00 ; $33,563.75 ; $292,920.00 ;1/10/2022
+Mercado medio;Canadá; Carretera ; Alto ;1560; $3.00 ; $15.00 ; $2,574.00 ; $15,600.00 ;1/11/2021
+Gobierno;México; Carretera ; Alto ;2706; $3.00 ; $7.00 ; $2,083.62 ; $13,530.00 ;1/11/2021
+Gobierno;Alemania; Montaña ; Alto ;766; $5.00 ; $350.00 ; $29,491.00 ; $199,160.00 ;1/01/2022
+Gobierno;Alemania; Montaña ; Alto ;2992; $5.00 ; $20.00 ; $6,582.40 ; $29,920.00 ;1/10/2021
+Mercado medio;México; Montaña ; Alto ;2157; $5.00 ; $15.00 ; $3,559.05 ; $21,570.00 ;1/12/2022
+Pequeños negocios;Canadá; Paseo ; Alto ;873; $10.00 ; $300.00 ; $28,809.00 ; $218,250.00 ;1/01/2022
+Gobierno;México; Paseo ; Alto ;1122; $10.00 ; $20.00 ; $2,468.40 ; $11,220.00 ;1/03/2022
+Gobierno;Canadá; Paseo ; Alto ;2104.5; $10.00 ; $350.00 ; $81,023.25 ; $547,170.00 ;1/07/2022
+Socios de canal;Canadá; Paseo ; Alto ;4026; $10.00 ; $12.00 ; $5,314.32 ; $12,078.00 ;1/07/2022
+Socios de canal;Francia; Paseo ; Alto ;2425.5; $10.00 ; $12.00 ; $3,201.66 ; $7,276.50 ;1/07/2022
+Gobierno;Canadá; Paseo ; Alto ;2394; $10.00 ; $20.00 ; $5,266.80 ; $23,940.00 ;1/08/2022
+Mercado medio;México; Paseo ; Alto ;1984; $10.00 ; $15.00 ; $3,273.60 ; $19,840.00 ;1/08/2022
+Empresa;Francia; Paseo ; Alto ;2441; $10.00 ; $125.00 ; $33,563.75 ; $292,920.00 ;1/10/2022
+Gobierno;Alemania; Paseo ; Alto ;2992; $10.00 ; $20.00 ; $6,582.40 ; $29,920.00 ;1/10/2021
+Pequeños negocios;Canadá; Paseo ; Alto ;1366; $10.00 ; $300.00 ; $45,078.00 ; $341,500.00 ;1/11/2022
+Gobierno;Francia; Turismo ; Alto ;2805; $120.00 ; $20.00 ; $6,171.00 ; $28,050.00 ;1/09/2021
+Mercado medio;México; Turismo ; Alto ;655; $120.00 ; $15.00 ; $1,080.75 ; $6,550.00 ;1/09/2021
+Gobierno;México; Turismo ; Alto ;344; $120.00 ; $350.00 ; $13,244.00 ; $89,440.00 ;1/10/2021
+Gobierno;Canadá; Turismo ; Alto ;1808; $120.00 ; $7.00 ; $1,392.16 ; $9,040.00 ;1/11/2022
+Socios de canal;Francia; VTT ; Alto ;1734; $250.00 ; $12.00 ; $2,288.88 ; $5,202.00 ;1/01/2022
+Empresa;México; VTT ; Alto ;554; $250.00 ; $125.00 ; $7,617.50 ; $66,480.00 ;1/01/2022
+Gobierno;Canadá; VTT ; Alto ;2935; $250.00 ; $20.00 ; $6,457.00 ; $29,350.00 ;1/11/2021
+Empresa;Alemania; Urbana ; Alto ;3165; $260.00 ; $125.00 ; $43,518.75 ; $379,800.00 ;1/01/2022
+Gobierno;México; Urbana ; Alto ;2629; $260.00 ; $20.00 ; $5,783.80 ; $26,290.00 ;1/01/2022
+Empresa;Francia; Urbana ; Alto ;1433; $260.00 ; $125.00 ; $19,703.75 ; $171,960.00 ;1/05/2022
+Empresa;México; Urbana ; Alto ;947; $260.00 ; $125.00 ; $13,021.25 ; $113,640.00 ;1/09/2021
+Gobierno;México; Urbana ; Alto ;344; $260.00 ; $350.00 ; $13,244.00 ; $89,440.00 ;1/10/2021
+Mercado medio;México; Urbana ; Alto ;2157; $260.00 ; $15.00 ; $3,559.05 ; $21,570.00 ;1/12/2022
+Gobierno;Estados Unidos; Paseo ; Alto ;380; $10.00 ; $7.00 ; $292.60 ; $1,900.00 ;1/09/2021
+Gobierno;México; Carretera ; Alto ;886; $3.00 ; $350.00 ; $37,212.00 ; $230,360.00 ;1/06/2022
+Empresa;Canadá; Carretera ; Alto ;2416; $3.00 ; $125.00 ; $36,240.00 ; $289,920.00 ;1/09/2021
+Empresa;México; Carretera ; Alto ;2156; $3.00 ; $125.00 ; $32,340.00 ; $258,720.00 ;1/10/2022
+Mercado medio;Canadá; Carretera ; Alto ;2689; $3.00 ; $15.00 ; $4,840.20 ; $26,890.00 ;1/11/2022
+Mercado medio;Estados Unidos; Montaña ; Alto ;677; $5.00 ; $15.00 ; $1,218.60 ; $6,770.00 ;1/03/2022
+Pequeños negocios;Francia; Montaña ; Alto ;1773; $5.00 ; $300.00 ; $63,828.00 ; $443,250.00 ;1/04/2022
+Gobierno;México; Montaña ; Alto ;2420; $5.00 ; $7.00 ; $2,032.80 ; $12,100.00 ;1/09/2022
+Gobierno;Canadá; Montaña ; Alto ;2734; $5.00 ; $7.00 ; $2,296.56 ; $13,670.00 ;1/10/2022
+Gobierno;México; Montaña ; Alto ;1715; $5.00 ; $20.00 ; $4,116.00 ; $17,150.00 ;1/10/2021
+Pequeños negocios;Francia; Montaña ; Alto ;1186; $5.00 ; $300.00 ; $42,696.00 ; $296,500.00 ;1/12/2021
+Pequeños negocios;Estados Unidos; Paseo ; Alto ;3495; $10.00 ; $300.00 ; $125,820.00 ; $873,750.00 ;1/01/2022
+Gobierno;México; Paseo ; Alto ;886; $10.00 ; $350.00 ; $37,212.00 ; $230,360.00 ;1/06/2022
+Empresa;México; Paseo ; Alto ;2156; $10.00 ; $125.00 ; $32,340.00 ; $258,720.00 ;1/10/2022
+Gobierno;México; Paseo ; Alto ;905; $10.00 ; $20.00 ; $2,172.00 ; $9,050.00 ;1/10/2022
+Gobierno;México; Paseo ; Alto ;1715; $10.00 ; $20.00 ; $4,116.00 ; $17,150.00 ;1/10/2021
+Gobierno;Francia; Paseo ; Alto ;1594; $10.00 ; $350.00 ; $66,948.00 ; $414,440.00 ;1/11/2022
+Pequeños negocios;Alemania; Paseo ; Alto ;1359; $10.00 ; $300.00 ; $48,924.00 ; $339,750.00 ;1/11/2022
+Pequeños negocios;México; Paseo ; Alto ;2150; $10.00 ; $300.00 ; $77,400.00 ; $537,500.00 ;1/11/2022
+Gobierno;México; Paseo ; Alto ;1197; $10.00 ; $350.00 ; $50,274.00 ; $311,220.00 ;1/11/2022
+Mercado medio;México; Paseo ; Alto ;380; $10.00 ; $15.00 ; $684.00 ; $3,800.00 ;1/12/2021
+Gobierno;México; Paseo ; Alto ;1233; $10.00 ; $20.00 ; $2,959.20 ; $12,330.00 ;1/12/2022
+Gobierno;México; Turismo ; Alto ;1395; $120.00 ; $350.00 ; $58,590.00 ; $362,700.00 ;1/07/2022
+Gobierno;Estados Unidos; Turismo ; Alto ;986; $120.00 ; $350.00 ; $41,412.00 ; $256,360.00 ;1/10/2022
+Gobierno;México; Turismo ; Alto ;905; $120.00 ; $20.00 ; $2,172.00 ; $9,050.00 ;1/10/2022
+Socios de canal;Canadá; VTT ; Alto ;2109; $250.00 ; $12.00 ; $3,036.96 ; $6,327.00 ;1/05/2022
+Mercado medio;Francia; VTT ; Alto ;3874.5; $250.00 ; $15.00 ; $6,974.10 ; $38,745.00 ;1/07/2022
+Gobierno;Canadá; VTT ; Alto ;623; $250.00 ; $350.00 ; $26,166.00 ; $161,980.00 ;1/09/2021
+Gobierno;Estados Unidos; VTT ; Alto ;986; $250.00 ; $350.00 ; $41,412.00 ; $256,360.00 ;1/10/2022
+Empresa;Estados Unidos; VTT ; Alto ;2387; $250.00 ; $125.00 ; $35,805.00 ; $286,440.00 ;1/11/2022
+Gobierno;México; VTT ; Alto ;1233; $250.00 ; $20.00 ; $2,959.20 ; $12,330.00 ;1/12/2022
+Gobierno;Estados Unidos; Urbana ; Alto ;270; $260.00 ; $350.00 ; $11,340.00 ; $70,200.00 ;1/02/2022
+Gobierno;Francia; Urbana ; Alto ;3421.5; $260.00 ; $7.00 ; $2,874.06 ; $17,107.50 ;1/07/2022
+Gobierno;Canadá; Urbana ; Alto ;2734; $260.00 ; $7.00 ; $2,296.56 ; $13,670.00 ;1/10/2022
+Mercado medio;Estados Unidos; Urbana ; Alto ;2548; $260.00 ; $15.00 ; $4,586.40 ; $25,480.00 ;1/11/2021
+Gobierno;Francia; Carretera ; Alto ;2521.5; $3.00 ; $20.00 ; $6,051.60 ; $25,215.00 ;1/01/2022
+Socios de canal;México; Montaña ; Alto ;2661; $5.00 ; $12.00 ; $3,831.84 ; $7,983.00 ;1/05/2022
+Gobierno;Alemania; Paseo ; Alto ;1531; $10.00 ; $20.00 ; $3,674.40 ; $15,310.00 ;1/12/2022
+Gobierno;Francia; VTT ; Alto ;1491; $250.00 ; $7.00 ; $1,252.44 ; $7,455.00 ;1/03/2022
+Gobierno;Alemania; VTT ; Alto ;1531; $250.00 ; $20.00 ; $3,674.40 ; $15,310.00 ;1/12/2022
+Socios de canal;Canadá; Urbana ; Alto ;2761; $260.00 ; $12.00 ; $3,975.84 ; $8,283.00 ;1/09/2021
+Mercado medio;Estados Unidos; Carretera ; Alto ;2567; $3.00 ; $15.00 ; $5,005.65 ; $25,670.00 ;1/06/2022
+Mercado medio;Estados Unidos; VTT ; Alto ;2567; $250.00 ; $15.00 ; $5,005.65 ; $25,670.00 ;1/06/2022
+Gobierno;Canadá; Carretera ; Alto ;923; $3.00 ; $350.00 ; $41,996.50 ; $239,980.00 ;1/03/2022
+Gobierno;Francia; Carretera ; Alto ;1790; $3.00 ; $350.00 ; $81,445.00 ; $465,400.00 ;1/03/2022
+Gobierno;Alemania; Carretera ; Alto ;442; $3.00 ; $20.00 ; $1,149.20 ; $4,420.00 ;1/09/2021
+Gobierno;Estados Unidos; Montaña ; Alto ;982.5; $5.00 ; $350.00 ; $44,703.75 ; $255,450.00 ;1/01/2022
+Gobierno;Estados Unidos; Montaña ; Alto ;1298; $5.00 ; $7.00 ; $1,181.18 ; $6,490.00 ;1/02/2022
+Socios de canal;México; Montaña ; Alto ;604; $5.00 ; $12.00 ; $942.24 ; $1,812.00 ;1/06/2022
+Gobierno;México; Montaña ; Alto ;2255; $5.00 ; $20.00 ; $5,863.00 ; $22,550.00 ;1/07/2022
+Gobierno;Canadá; Montaña ; Alto ;1249; $5.00 ; $20.00 ; $3,247.40 ; $12,490.00 ;1/10/2022
+Gobierno;Estados Unidos; Paseo ; Alto ;1438.5; $10.00 ; $7.00 ; $1,309.04 ; $7,192.50 ;1/01/2022
+Pequeños negocios;Alemania; Paseo ; Alto ;807; $10.00 ; $300.00 ; $31,473.00 ; $201,750.00 ;1/01/2022
+Gobierno;Estados Unidos; Paseo ; Alto ;2641; $10.00 ; $20.00 ; $6,866.60 ; $26,410.00 ;1/02/2022
+Gobierno;Alemania; Paseo ; Alto ;2708; $10.00 ; $20.00 ; $7,040.80 ; $27,080.00 ;1/02/2022
+Gobierno;Canadá; Paseo ; Alto ;2632; $10.00 ; $350.00 ; $119,756.00 ; $684,320.00 ;1/06/2022
+Empresa;Canadá; Paseo ; Alto ;1583; $10.00 ; $125.00 ; $25,723.75 ; $189,960.00 ;1/06/2022
+Socios de canal;México; Paseo ; Alto ;571; $10.00 ; $12.00 ; $890.76 ; $1,713.00 ;1/07/2022
+Gobierno;Francia; Paseo ; Alto ;2696; $10.00 ; $7.00 ; $2,453.36 ; $13,480.00 ;1/08/2022
+Mercado medio;Canadá; Paseo ; Alto ;1565; $10.00 ; $15.00 ; $3,051.75 ; $15,650.00 ;1/10/2022
+Gobierno;Canadá; Paseo ; Alto ;1249; $10.00 ; $20.00 ; $3,247.40 ; $12,490.00 ;1/10/2022
+Gobierno;Alemania; Paseo ; Alto ;357; $10.00 ; $350.00 ; $16,243.50 ; $92,820.00 ;1/11/2022
+Socios de canal;Alemania; Paseo ; Alto ;1013; $10.00 ; $12.00 ; $1,580.28 ; $3,039.00 ;1/12/2022
+Mercado medio;Francia; Turismo ; Alto ;3997.5; $120.00 ; $15.00 ; $7,795.13 ; $39,975.00 ;1/01/2022
+Gobierno;Canadá; Turismo ; Alto ;2632; $120.00 ; $350.00 ; $119,756.00 ; $684,320.00 ;1/06/2022
+Gobierno;Francia; Turismo ; Alto ;1190; $120.00 ; $7.00 ; $1,082.90 ; $5,950.00 ;1/06/2022
+Socios de canal;México; Turismo ; Alto ;604; $120.00 ; $12.00 ; $942.24 ; $1,812.00 ;1/06/2022
+Mercado medio;Alemania; Turismo ; Alto ;660; $120.00 ; $15.00 ; $1,287.00 ; $6,600.00 ;1/09/2021
+Socios de canal;México; Turismo ; Alto ;410; $120.00 ; $12.00 ; $639.60 ; $1,230.00 ;1/10/2022
+Pequeños negocios;México; Turismo ; Alto ;2605; $120.00 ; $300.00 ; $101,595.00 ; $651,250.00 ;1/11/2021
+Socios de canal;Alemania; Turismo ; Alto ;1013; $120.00 ; $12.00 ; $1,580.28 ; $3,039.00 ;1/12/2022
+Empresa;Canadá; VTT ; Alto ;1583; $250.00 ; $125.00 ; $25,723.75 ; $189,960.00 ;1/06/2022
+Mercado medio;Canadá; VTT ; Alto ;1565; $250.00 ; $15.00 ; $3,051.75 ; $15,650.00 ;1/10/2022
+Empresa;Canadá; Urbana ; Alto ;1659; $260.00 ; $125.00 ; $26,958.75 ; $199,080.00 ;1/01/2022
+Gobierno;Francia; Urbana ; Alto ;1190; $260.00 ; $7.00 ; $1,082.90 ; $5,950.00 ;1/06/2022
+Socios de canal;México; Urbana ; Alto ;410; $260.00 ; $12.00 ; $639.60 ; $1,230.00 ;1/10/2022
+Socios de canal;Alemania; Urbana ; Alto ;1770; $260.00 ; $12.00 ; $2,761.20 ; $5,310.00 ;1/12/2021
+Gobierno;México; Carretera ; Alto ;2579; $3.00 ; $20.00 ; $7,221.20 ; $25,790.00 ;1/04/2022
+Gobierno;Estados Unidos; Carretera ; Alto ;1743; $3.00 ; $20.00 ; $4,880.40 ; $17,430.00 ;1/05/2022
+Gobierno;Estados Unidos; Carretera ; Alto ;2996; $3.00 ; $7.00 ; $2,936.08 ; $14,980.00 ;1/10/2021
+Gobierno;Alemania; Carretera ; Alto ;280; $3.00 ; $7.00 ; $274.40 ; $1,400.00 ;1/12/2022
+Gobierno;Francia; Montaña ; Alto ;293; $5.00 ; $7.00 ; $287.14 ; $1,465.00 ;1/02/2022
+Gobierno;Estados Unidos; Montaña ; Alto ;2996; $5.00 ; $7.00 ; $2,936.08 ; $14,980.00 ;1/10/2021
+Mercado medio;Alemania; Paseo ; Alto ;278; $10.00 ; $15.00 ; $583.80 ; $2,780.00 ;1/02/2022
+Gobierno;Canadá; Paseo ; Alto ;2428; $10.00 ; $20.00 ; $6,798.40 ; $24,280.00 ;1/03/2022
+Mercado medio;Estados Unidos; Paseo ; Alto ;1767; $10.00 ; $15.00 ; $3,710.70 ; $17,670.00 ;1/09/2022
+Socios de canal;Francia; Paseo ; Alto ;1393; $10.00 ; $12.00 ; $2,340.24 ; $4,179.00 ;1/10/2022
+Gobierno;Alemania; VTT ; Alto ;280; $250.00 ; $7.00 ; $274.40 ; $1,400.00 ;1/12/2022
+Socios de canal;Francia; Urbana ; Alto ;1393; $260.00 ; $12.00 ; $2,340.24 ; $4,179.00 ;1/10/2022
+Socios de canal;Estados Unidos; Urbana ; Alto ;2015; $260.00 ; $12.00 ; $3,385.20 ; $6,045.00 ;1/12/2021
+Pequeños negocios;México; Carretera ; Alto ;801; $3.00 ; $300.00 ; $33,642.00 ; $200,250.00 ;1/07/2022
+Empresa;Francia; Carretera ; Alto ;1023; $3.00 ; $125.00 ; $17,902.50 ; $122,760.00 ;1/09/2021
+Pequeños negocios;Canadá; Carretera ; Alto ;1496; $3.00 ; $300.00 ; $62,832.00 ; $374,000.00 ;1/10/2022
+Pequeños negocios;Estados Unidos; Carretera ; Alto ;1010; $3.00 ; $300.00 ; $42,420.00 ; $252,500.00 ;1/10/2022
+Mercado medio;Alemania; Carretera ; Alto ;1513; $3.00 ; $15.00 ; $3,177.30 ; $15,130.00 ;1/11/2022
+Mercado medio;Canadá; Carretera ; Alto ;2300; $3.00 ; $15.00 ; $4,830.00 ; $23,000.00 ;1/12/2022
+Empresa;México; Carretera ; Alto ;2821; $3.00 ; $125.00 ; $49,367.50 ; $338,520.00 ;1/12/2021
+Gobierno;Canadá; Montaña ; Alto ;2227.5; $5.00 ; $350.00 ; $109,147.50 ; $579,150.00 ;1/01/2022
+Gobierno;Alemania; Montaña ; Alto ;1199; $5.00 ; $350.00 ; $58,751.00 ; $311,740.00 ;1/04/2022
+Gobierno;Canadá; Montaña ; Alto ;200; $5.00 ; $350.00 ; $9,800.00 ; $52,000.00 ;1/05/2022
+Gobierno;Canadá; Montaña ; Alto ;388; $5.00 ; $7.00 ; $380.24 ; $1,940.00 ;1/09/2022
+Gobierno;México; Montaña ; Alto ;1727; $5.00 ; $7.00 ; $1,692.46 ; $8,635.00 ;1/10/2021
+Mercado medio;Canadá; Montaña ; Alto ;2300; $5.00 ; $15.00 ; $4,830.00 ; $23,000.00 ;1/12/2022
+Gobierno;México; Paseo ; Alto ;260; $10.00 ; $20.00 ; $728.00 ; $2,600.00 ;1/02/2022
+Mercado medio;Canadá; Paseo ; Alto ;2470; $10.00 ; $15.00 ; $5,187.00 ; $24,700.00 ;1/09/2021
+Mercado medio;Canadá; Paseo ; Alto ;1743; $10.00 ; $15.00 ; $3,660.30 ; $17,430.00 ;1/10/2021
+Socios de canal;Estados Unidos; Paseo ; Alto ;2914; $10.00 ; $12.00 ; $4,895.52 ; $8,742.00 ;1/10/2022
+Gobierno;Francia; Paseo ; Alto ;1731; $10.00 ; $7.00 ; $1,696.38 ; $8,655.00 ;1/10/2022
+Gobierno;Canadá; Paseo ; Alto ;700; $10.00 ; $350.00 ; $34,300.00 ; $182,000.00 ;1/11/2022
+Socios de canal;Canadá; Paseo ; Alto ;2222; $10.00 ; $12.00 ; $3,732.96 ; $6,666.00 ;1/11/2021
+Gobierno;Estados Unidos; Paseo ; Alto ;1177; $10.00 ; $350.00 ; $57,673.00 ; $306,020.00 ;1/11/2022
+Gobierno;Francia; Paseo ; Alto ;1922; $10.00 ; $350.00 ; $94,178.00 ; $499,720.00 ;1/11/2021
+Empresa;México; Turismo ; Alto ;1575; $120.00 ; $125.00 ; $27,562.50 ; $189,000.00 ;1/02/2022
+Gobierno;Estados Unidos; Turismo ; Alto ;606; $120.00 ; $20.00 ; $1,696.80 ; $6,060.00 ;1/04/2022
+Pequeños negocios;Estados Unidos; Turismo ; Alto ;2460; $120.00 ; $300.00 ; $103,320.00 ; $615,000.00 ;1/07/2022
+Pequeños negocios;Canadá; Turismo ; Alto ;269; $120.00 ; $300.00 ; $11,298.00 ; $67,250.00 ;1/10/2021
+Pequeños negocios;Alemania; Turismo ; Alto ;2536; $120.00 ; $300.00 ; $106,512.00 ; $634,000.00 ;1/11/2021
+Gobierno;México; VTT ; Alto ;2903; $250.00 ; $7.00 ; $2,844.94 ; $14,515.00 ;1/03/2022
+Pequeños negocios;Estados Unidos; VTT ; Alto ;2541; $250.00 ; $300.00 ; $106,722.00 ; $635,250.00 ;1/08/2022
+Pequeños negocios;Canadá; VTT ; Alto ;269; $250.00 ; $300.00 ; $11,298.00 ; $67,250.00 ;1/10/2021
+Pequeños negocios;Canadá; VTT ; Alto ;1496; $250.00 ; $300.00 ; $62,832.00 ; $374,000.00 ;1/10/2022
+Pequeños negocios;Estados Unidos; VTT ; Alto ;1010; $250.00 ; $300.00 ; $42,420.00 ; $252,500.00 ;1/10/2022
+Gobierno;Francia; VTT ; Alto ;1281; $250.00 ; $350.00 ; $62,769.00 ; $333,060.00 ;1/12/2021
+Pequeños negocios;Canadá; Urbana ; Alto ;888; $260.00 ; $300.00 ; $37,296.00 ; $222,000.00 ;1/03/2022
+Empresa;Estados Unidos; Urbana ; Alto ;2844; $260.00 ; $125.00 ; $49,770.00 ; $341,280.00 ;1/05/2022
+Socios de canal;Francia; Urbana ; Alto ;2475; $260.00 ; $12.00 ; $4,158.00 ; $7,425.00 ;1/08/2022
+Mercado medio;Canadá; Urbana ; Alto ;1743; $260.00 ; $15.00 ; $3,660.30 ; $17,430.00 ;1/10/2021
+Socios de canal;Estados Unidos; Urbana ; Alto ;2914; $260.00 ; $12.00 ; $4,895.52 ; $8,742.00 ;1/10/2022
+Gobierno;Francia; Urbana ; Alto ;1731; $260.00 ; $7.00 ; $1,696.38 ; $8,655.00 ;1/10/2022
+Gobierno;México; Urbana ; Alto ;1727; $260.00 ; $7.00 ; $1,692.46 ; $8,635.00 ;1/10/2021
+Mercado medio;México; Urbana ; Alto ;1870; $260.00 ; $15.00 ; $3,927.00 ; $18,700.00 ;1/11/2021
+Empresa;Francia; Carretera ; Alto ;1174; $3.00 ; $125.00 ; $22,012.50 ; $140,880.00 ;1/08/2022
+Empresa;Alemania; Carretera ; Alto ;2767; $3.00 ; $125.00 ; $51,881.25 ; $332,040.00 ;1/08/2022
+Empresa;Alemania; Carretera ; Alto ;1085; $3.00 ; $125.00 ; $20,343.75 ; $130,200.00 ;1/10/2022
+Pequeños negocios;México; Montaña ; Alto ;546; $5.00 ; $300.00 ; $24,570.00 ; $136,500.00 ;1/10/2022
+Gobierno;Alemania; Paseo ; Alto ;1158; $10.00 ; $20.00 ; $3,474.00 ; $11,580.00 ;1/03/2022
+Mercado medio;Canadá; Paseo ; Alto ;1614; $10.00 ; $15.00 ; $3,631.50 ; $16,140.00 ;1/04/2022
+Gobierno;México; Paseo ; Alto ;2535; $10.00 ; $7.00 ; $2,661.75 ; $12,675.00 ;1/04/2022
+Gobierno;México; Paseo ; Alto ;2851; $10.00 ; $350.00 ; $149,677.50 ; $741,260.00 ;1/05/2022
+Mercado medio;Canadá; Paseo ; Alto ;2559; $10.00 ; $15.00 ; $5,757.75 ; $25,590.00 ;1/08/2022
+Gobierno;Estados Unidos; Paseo ; Alto ;267; $10.00 ; $20.00 ; $801.00 ; $2,670.00 ;1/10/2021
+Empresa;Alemania; Paseo ; Alto ;1085; $10.00 ; $125.00 ; $20,343.75 ; $130,200.00 ;1/10/2022
+Mercado medio;Alemania; Paseo ; Alto ;1175; $10.00 ; $15.00 ; $2,643.75 ; $11,750.00 ;1/10/2022
+Gobierno;Estados Unidos; Paseo ; Alto ;2007; $10.00 ; $350.00 ; $105,367.50 ; $521,820.00 ;1/11/2021
+Gobierno;México; Paseo ; Alto ;2151; $10.00 ; $350.00 ; $112,927.50 ; $559,260.00 ;1/11/2021
+Socios de canal;Estados Unidos; Paseo ; Alto ;914; $10.00 ; $12.00 ; $1,645.20 ; $2,742.00 ;1/12/2022
+Gobierno;Francia; Paseo ; Alto ;293; $10.00 ; $20.00 ; $879.00 ; $2,930.00 ;1/12/2022
+Socios de canal;México; Turismo ; Alto ;500; $120.00 ; $12.00 ; $900.00 ; $1,500.00 ;1/03/2022
+Mercado medio;Francia; Turismo ; Alto ;2826; $120.00 ; $15.00 ; $6,358.50 ; $28,260.00 ;1/05/2022
+Empresa;Francia; Turismo ; Alto ;663; $120.00 ; $125.00 ; $12,431.25 ; $79,560.00 ;1/09/2022
+Pequeños negocios;Estados Unidos; Turismo ; Alto ;2574; $120.00 ; $300.00 ; $115,830.00 ; $643,500.00 ;1/11/2021
+Empresa;Estados Unidos; Turismo ; Alto ;2438; $120.00 ; $125.00 ; $45,712.50 ; $292,560.00 ;1/12/2021
+Socios de canal;Estados Unidos; Turismo ; Alto ;914; $120.00 ; $12.00 ; $1,645.20 ; $2,742.00 ;1/12/2022
+Gobierno;Canadá; VTT ; Alto ;865.5; $250.00 ; $20.00 ; $2,596.50 ; $8,655.00 ;1/07/2022
+Mercado medio;Alemania; VTT ; Alto ;492; $250.00 ; $15.00 ; $1,107.00 ; $4,920.00 ;1/07/2022
+Gobierno;Estados Unidos; VTT ; Alto ;267; $250.00 ; $20.00 ; $801.00 ; $2,670.00 ;1/10/2021
+Mercado medio;Alemania; VTT ; Alto ;1175; $250.00 ; $15.00 ; $2,643.75 ; $11,750.00 ;1/10/2022
+Empresa;Canadá; VTT ; Alto ;2954; $250.00 ; $125.00 ; $55,387.50 ; $354,480.00 ;1/11/2021
+Empresa;Alemania; VTT ; Alto ;552; $250.00 ; $125.00 ; $10,350.00 ; $66,240.00 ;1/11/2022
+Gobierno;Francia; VTT ; Alto ;293; $250.00 ; $20.00 ; $879.00 ; $2,930.00 ;1/12/2022
+Pequeños negocios;Francia; Urbana ; Alto ;2475; $260.00 ; $300.00 ; $111,375.00 ; $618,750.00 ;1/03/2022
+Pequeños negocios;México; Urbana ; Alto ;546; $260.00 ; $300.00 ; $24,570.00 ; $136,500.00 ;1/10/2022
+Gobierno;México; Montaña ; Alto ;1368; $5.00 ; $7.00 ; $1,436.40 ; $6,840.00 ;1/02/2022
+Gobierno;Canadá; Paseo ; Alto ;723; $10.00 ; $7.00 ; $759.15 ; $3,615.00 ;1/04/2022
+Socios de canal;Estados Unidos; VTT ; Alto ;1806; $250.00 ; $12.00 ; $3,250.80 ; $5,418.00 ;1/05/2022
